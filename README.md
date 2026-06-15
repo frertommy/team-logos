@@ -8,7 +8,7 @@ Standardized logo assets for every team across **three competitions** — **160 
 | **MLB** | 30 | Major League Baseball |
 | **NBA** | 30 | National Basketball Association |
 
-Every logo is the **current official crest** (latest as of the 2026-06-15 build), sourced as a transparent PNG.
+Every logo is the **current official crest** (latest as of the 2026-06-15 build), sourced as a transparent PNG. **67 of the 160 teams** additionally include an authentic **vector `.svg`** (see [Vector logos](#vector-svg-logos)).
 
 ---
 
@@ -53,6 +53,16 @@ MSI2026/Premier League/Arsenal/
 
 One entry per team with its competition, group (league/conference), the source logo URL it was built from, and the relative paths of all 6 generated files. Use this to wire logos into an app without walking the directory tree.
 
+## Vector (SVG) logos
+
+In addition to the PNGs, **67 of the 160 teams** also ship an authentic vector **`.svg`** (MSI2026 35 · MLB 27 · NBA 5), placed next to the PNGs as `<slug>.svg` and indexed in `svg_manifest.json`.
+
+- These are **real vector files — never auto-traced** from the PNGs. Sources: the current English-Wikipedia infobox crest (55) and Wikimedia Commons `P154` (12).
+- The remaining **93 teams have no freely-licensed SVG**: their current crests are copyrighted and exist only as raster / fair-use files (this is most of the marquee clubs — Arsenal, Real Madrid, Liverpool, Man Utd/City — and most NBA franchises). The 512px PNG is the asset for those.
+- A few of the US vectors are official **cap/wordmark** marks (the only free vector available for that team).
+
+Run `python3 scripts/fetch_svgs.py report` for exact per-team coverage.
+
 ---
 
 ## Source, freshness & attribution
@@ -72,6 +82,9 @@ The entire set is reproducible. From the repo root:
 ```bash
 python3 scripts/build_logos.py report   # match all teams to logos + print confidence (no downloads)
 python3 scripts/build_logos.py build     # download masters + regenerate all 960 variants + manifest.json
+
+python3 scripts/fetch_svgs.py report     # show authentic-SVG coverage per team (no downloads)
+python3 scripts/fetch_svgs.py fetch      # download the verified vector SVGs + write svg_manifest.json
 ```
 
 Requires Python 3 with [Pillow](https://pypi.org/project/Pillow/). Raw downloaded masters land in `_masters/` (git-ignored); the script re-downloads as needed and skips files already present.

@@ -58,6 +58,8 @@
   .card .label{padding:10px 12px;border-top:1px solid var(--line);font-size:13.5px;font-weight:600;
     display:flex;justify-content:space-between;align-items:center;gap:8px}
   .card .label small{color:var(--muted);font-weight:500;font-size:11.5px;white-space:nowrap}
+  .svgtag{background:var(--msi);color:#06210f;font-weight:800;font-size:9.5px;letter-spacing:.4px;
+    padding:1px 6px;border-radius:999px;text-transform:uppercase}
 
   .biglink{display:flex;align-items:center;gap:14px;padding:18px}
   .pill{font-size:11px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;
@@ -142,7 +144,7 @@ const VARIANTS=[
   ["small_circle","Small · Circle","128px · transparent inset"],
   ["small_circle_badge","Small · Circle badge","128px · white disc"],
 ];
-let DATA=null, TEAMS=[], COMPS=[];
+let DATA=null, TEAMS=[], COMPS=[], SVG={};
 
 const enc = p => p.split('/').map(encodeURIComponent).join('/');
 const deburr = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
@@ -157,7 +159,9 @@ function build(){
     name:c,
     groups:Object.keys(byComp[c]).sort().map(g=>({name:g, teams:byComp[c][g].sort((a,b)=>a.team.localeCompare(b.team))}))
   }));
-  document.getElementById('brandsub').textContent = TEAMS.length+' teams · '+(TEAMS.length*6)+' logos';
+  const ns=Object.keys(SVG).length;
+  document.getElementById('brandsub').textContent =
+    TEAMS.length+' teams · '+(TEAMS.length*6)+' PNG'+(ns?` · ${ns} SVG`:'');
 }
 
 function dot(comp,cls=''){const c=COMP[comp];return `<div class="dot ${cls}" style="background:${c.color}">${c.abbr}</div>`;}
@@ -203,10 +207,11 @@ function viewComp(ci){
   document.getElementById('app').innerHTML=h;
 }
 
+function svgChip(t){return SVG[t.slug]?'<small class="svgtag">SVG</small>':'';}
 function teamCard(t){
   return `<a class="card" href="#/t/${t._i}">
     <div class="thumb">${thumbImg(t)}</div>
-    <div class="label">${esc(t.team)}</div></a>`;
+    <div class="label">${esc(t.team)}${svgChip(t)}</div></a>`;
 }
 
 function viewGroup(ci,gi){
@@ -229,6 +234,17 @@ function viewTeam(i){
     <h1>${esc(t.team)}</h1><div class="count">${COMP[t.competition].label} · ${esc(t.group)}</div></div></div>`;
   h+=`<div class="src">Source: ${esc(t.matched_as)} · <a href="${esc(t.source_logo)}" target="_blank" rel="noopener">original logo ↗</a></div>`;
   h+=`<div class="grid variant">`;
+  const sv=SVG[t.slug];
+  if(sv){
+    const u=enc(sv.svg), fn=sv.svg.split('/').pop();
+    h+=`<div class="vcard" style="border-color:var(--msi)"><div class="vthumb"><img loading="lazy" src="${u}" alt="SVG"></div>
+      <div class="vmeta"><div class="vt">Vector · SVG <small class="svgtag">scalable</small></div>
+      <div class="count" style="font-size:11.5px;margin-top:2px">authentic vector · ${esc(sv.src||'wikimedia')}</div>
+      <div class="vactions">
+        <a class="btn primary" href="${u}" download="${esc(fn)}">Download</a>
+        <a class="btn" href="${u}" target="_blank" rel="noopener">Open</a>
+      </div></div></div>`;
+  }
   for(const [key,title,meta] of VARIANTS){
     const p=variantPath(t,key); if(!p) continue;
     const u=enc(p), fname=p.split('/').pop();
@@ -253,7 +269,7 @@ function viewSearch(qraw){
   else if(!res.length){h+=`<p class="empty">No teams match “${esc(qraw)}”.</p>`;}
   else{h+=`<div class="grid team">`+res.map(t=>`<a class="card" href="#/t/${t._i}">
       <div class="thumb">${thumbImg(t)}</div>
-      <div class="label">${esc(t.team)}<small>${COMP[t.competition].abbr}</small></div></a>`).join('')+`</div>`;}
+      <div class="label">${esc(t.team)}${svgChip(t)}<small>${COMP[t.competition].abbr}</small></div></a>`).join('')+`</div>`;}
   document.getElementById('app').innerHTML=h;
 }
 
@@ -279,9 +295,15 @@ document.querySelectorAll('.bgtoggle button').forEach(b=>b.addEventListener('cli
 }));
 window.addEventListener('hashchange',route);
 
-fetch('manifest.json').then(r=>r.json()).then(d=>{DATA=d;build();route();})
-  .catch(e=>{document.getElementById('app').innerHTML=
-    `<div class="empty">Couldn't load <code>manifest.json</code>.<br>Serve this folder over HTTP (e.g. <code>python3 -m http.server</code>) or via GitHub Pages — opening the file directly won't work.</div>`;});
+Promise.all([
+  fetch('manifest.json').then(r=>r.json()),
+  fetch('svg_manifest.json').then(r=>r.ok?r.json():null).catch(()=>null)
+]).then(([d,s])=>{
+  DATA=d;
+  if(s&&s.teams){for(const t of s.teams){if(t.svg)SVG[t.slug]={svg:t.svg,src:t.src||'wikimedia'};}}
+  build(); route();
+}).catch(e=>{document.getElementById('app').innerHTML=
+  `<div class="empty">Couldn't load <code>manifest.json</code>.<br>Serve this folder over HTTP (e.g. <code>python3 -m http.server</code>) or via GitHub Pages — opening the file directly won't work.</div>`;});
 </script>
 </body>
 </html>

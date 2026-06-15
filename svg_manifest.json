@@ -1,0 +1,1553 @@
+{
+  "source": "Wikidata P154 -> Wikimedia Commons",
+  "teams": [
+    {
+      "team": "1. FC Heidenheim",
+      "slug": "1-fc-heidenheim",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "src": "wikipedia",
+      "wikidata": "Q162251",
+      "commons_file": "1. FC Heidenheim",
+      "bytes": 12451
+    },
+    {
+      "team": "1. FC Köln",
+      "slug": "1-fc-koln",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/1. FC Köln/1-fc-koln.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "src": "wikipedia",
+      "wikidata": "Q104770",
+      "commons_file": "1. FC Köln",
+      "bytes": 26708
+    },
+    {
+      "team": "1899 Hoffenheim",
+      "slug": "1899-hoffenheim",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg",
+      "src": "wikipedia",
+      "wikidata": "Q22707",
+      "commons_file": "TSG 1899 Hoffenheim",
+      "bytes": 11063
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_TSV_Bayer_04_Leverkusen.svg",
+      "src": "commons-p154",
+      "wikidata": "Q104761",
+      "commons_file": "Logo TSV Bayer 04 Leverkusen.svg",
+      "bytes": 7971
+    },
+    {
+      "team": "Bayern München",
+      "slug": "bayern-munchen",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Bayern München/bayern-munchen.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q15789",
+      "commons_file": "FC Bayern Munich",
+      "bytes": 6805
+    },
+    {
+      "team": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "slug": "borussia-monchengladbach",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q101959",
+      "commons_file": "Borussia Mönchengladbach",
+      "bytes": 1242
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "FC Augsburg",
+      "slug": "fc-augsburg",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "FC St. Pauli",
+      "slug": "fc-st-pauli",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "FSV Mainz 05",
+      "slug": "fsv-mainz-05",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/1._FSV_Mainz_05_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q105254",
+      "commons_file": "1. FSV Mainz 05",
+      "bytes": 2634
+    },
+    {
+      "team": "Hamburger SV",
+      "slug": "hamburger-sv",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Hamburger SV/hamburger-sv.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q51974",
+      "commons_file": "Hamburger SV",
+      "bytes": 867
+    },
+    {
+      "team": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "SC Freiburg",
+      "slug": "sc-freiburg",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Union Berlin",
+      "slug": "union-berlin",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Union Berlin/union-berlin.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/44/1._FC_Union_Berlin_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q141971",
+      "commons_file": "1. FC Union Berlin",
+      "bytes": 17978
+    },
+    {
+      "team": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q4512",
+      "commons_file": "VfB Stuttgart",
+      "bytes": 12311
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "slug": "vfl-wolfsburg",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c5/VfL_Wolfsburg_logo_2026.svg",
+      "src": "wikipedia",
+      "wikidata": "Q101859",
+      "commons_file": "VfL Wolfsburg",
+      "bytes": 1547
+    },
+    {
+      "team": "Werder Bremen",
+      "slug": "werder-bremen",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/Werder Bremen/werder-bremen.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q51976",
+      "commons_file": "SV Werder Bremen",
+      "bytes": 1840
+    },
+    {
+      "team": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "competition": "MSI2026",
+      "group": "Champions League",
+      "svg": "MSI2026/Champions League/Bodo-Glimt/bodo-glimt.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/8/8d/FK_Bodo_Glimt_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q478167",
+      "commons_file": "FK Bodø/Glimt",
+      "bytes": 8730
+    },
+    {
+      "team": "Galatasaray",
+      "slug": "galatasaray",
+      "competition": "MSI2026",
+      "group": "Champions League",
+      "svg": null,
+      "reason": "no-entity"
+    },
+    {
+      "team": "Alaves",
+      "slug": "alaves",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Alaves/alaves.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/f/f8/Deportivo_Alaves_logo_%282020%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q223620",
+      "commons_file": "Deportivo Alavés",
+      "bytes": 13548
+    },
+    {
+      "team": "Athletic Club",
+      "slug": "athletic-club",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Barcelona",
+      "slug": "barcelona",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Barcelona/barcelona.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q7156",
+      "commons_file": "FC Barcelona",
+      "bytes": 14291
+    },
+    {
+      "team": "Celta Vigo",
+      "slug": "celta-vigo",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Celta Vigo/celta-vigo.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_RC_Celta_de_Vigo.svg",
+      "src": "commons-p154",
+      "wikidata": "Q8749",
+      "commons_file": "Escudo RC Celta de Vigo.svg",
+      "bytes": 97143
+    },
+    {
+      "team": "Elche",
+      "slug": "elche",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Espanyol",
+      "slug": "espanyol",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-entity"
+    },
+    {
+      "team": "Getafe",
+      "slug": "getafe",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Girona",
+      "slug": "girona",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Levante",
+      "slug": "levante",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Mallorca",
+      "slug": "mallorca",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Osasuna",
+      "slug": "osasuna",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Oviedo",
+      "slug": "oviedo",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Rayo Vallecano",
+      "slug": "rayo-vallecano",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Real Betis",
+      "slug": "real-betis",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Real Madrid",
+      "slug": "real-madrid",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Real Sociedad",
+      "slug": "real-sociedad",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Sevilla",
+      "slug": "sevilla",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Valencia",
+      "slug": "valencia",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Villarreal",
+      "slug": "villarreal",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Sporting CP",
+      "slug": "sporting-cp",
+      "competition": "MSI2026",
+      "group": "Liga Portugal",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Angers",
+      "slug": "angers",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Angers/angers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Angers_Sporting_Club_de_l%27Ouest_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q845137",
+      "commons_file": "Angers SCO",
+      "bytes": 7230
+    },
+    {
+      "team": "Auxerre",
+      "slug": "auxerre",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Le Havre",
+      "slug": "le-havre",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Lens",
+      "slug": "lens",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Lille",
+      "slug": "lille",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Lorient",
+      "slug": "lorient",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-entity"
+    },
+    {
+      "team": "Lyon",
+      "slug": "lyon",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Marseille",
+      "slug": "marseille",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Marseille/marseille.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Olympique_de_Marseille_2026_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q132885",
+      "commons_file": "Olympique de Marseille",
+      "bytes": 5734
+    },
+    {
+      "team": "Metz",
+      "slug": "metz",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-entity"
+    },
+    {
+      "team": "Monaco",
+      "slug": "monaco",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Nantes",
+      "slug": "nantes",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-entity"
+    },
+    {
+      "team": "Nice",
+      "slug": "nice",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Nice/nice.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/OGC_Nice_%28simplified_logo%29.svg",
+      "src": "commons-p154",
+      "wikidata": "Q185163",
+      "commons_file": "OGC Nice (simplified logo).svg",
+      "bytes": 34525
+    },
+    {
+      "team": "Paris FC",
+      "slug": "paris-fc",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+      "src": "wikipedia",
+      "wikidata": "Q483020",
+      "commons_file": "Paris Saint-Germain FC",
+      "bytes": 14779
+    },
+    {
+      "team": "Rennes",
+      "slug": "rennes",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Rennes/rennes.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade_Rennais_%28logo_1960%29.svg",
+      "src": "commons-p154",
+      "wikidata": "Q19509",
+      "commons_file": "Stade Rennais (logo 1960).svg",
+      "bytes": 30834
+    },
+    {
+      "team": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade_Brestois_Logo_avant_1985.svg",
+      "src": "commons-p154",
+      "wikidata": "Q218372",
+      "commons_file": "Stade Brestois Logo avant 1985.svg",
+      "bytes": 31538
+    },
+    {
+      "team": "Strasbourg",
+      "slug": "strasbourg",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Toulouse",
+      "slug": "toulouse",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Arsenal",
+      "slug": "arsenal",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Aston Villa",
+      "slug": "aston-villa",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Bournemouth",
+      "slug": "bournemouth",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Brentford",
+      "slug": "brentford",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Brighton",
+      "slug": "brighton",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Burnley",
+      "slug": "burnley",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Chelsea",
+      "slug": "chelsea",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Crystal Palace",
+      "slug": "crystal-palace",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Everton",
+      "slug": "everton",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Fulham",
+      "slug": "fulham",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": "MSI2026/Premier League/Fulham/fulham.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q18708",
+      "commons_file": "Fulham F.C.",
+      "bytes": 5854
+    },
+    {
+      "team": "Leeds",
+      "slug": "leeds",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Liverpool",
+      "slug": "liverpool",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Manchester City",
+      "slug": "manchester-city",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Manchester United",
+      "slug": "manchester-united",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Newcastle",
+      "slug": "newcastle",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Southampton",
+      "slug": "southampton",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Sunderland",
+      "slug": "sunderland",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Tottenham",
+      "slug": "tottenham",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "West Ham",
+      "slug": "west-ham",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Wolves",
+      "slug": "wolves",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "AC Milan",
+      "slug": "ac-milan",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/AC Milan/ac-milan.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+      "src": "wikipedia",
+      "wikidata": "Q1543",
+      "commons_file": "AC Milan",
+      "bytes": 14845
+    },
+    {
+      "team": "AS Roma",
+      "slug": "as-roma",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/AS Roma/as-roma.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/AS_ROMA_Text_Logo_2020_-_2021_.svg",
+      "src": "commons-p154",
+      "wikidata": "Q2739",
+      "commons_file": "AS ROMA Text Logo 2020 - 2021 .svg",
+      "bytes": 8889
+    },
+    {
+      "team": "Atalanta",
+      "slug": "atalanta",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Bologna",
+      "slug": "bologna",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Bologna/bologna.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q1893",
+      "commons_file": "Bologna FC 1909",
+      "bytes": 42811
+    },
+    {
+      "team": "Cagliari",
+      "slug": "cagliari",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Como",
+      "slug": "como",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Como/como.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Calcio_Como_-_logo_%28Italy%2C_2019-%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q1120838",
+      "commons_file": "Como 1907",
+      "bytes": 10759
+    },
+    {
+      "team": "Cremonese",
+      "slug": "cremonese",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Fiorentina",
+      "slug": "fiorentina",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Fiorentina/fiorentina.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q2052",
+      "commons_file": "ACF Fiorentina",
+      "bytes": 2791
+    },
+    {
+      "team": "Genoa",
+      "slug": "genoa",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Hellas Verona",
+      "slug": "hellas-verona",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Inter",
+      "slug": "inter",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Inter/inter.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+      "src": "wikipedia",
+      "wikidata": "Q631",
+      "commons_file": "Inter Milan",
+      "bytes": 1028
+    },
+    {
+      "team": "Juventus",
+      "slug": "juventus",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Juventus/juventus.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q1422",
+      "commons_file": "Juventus FC",
+      "bytes": 382
+    },
+    {
+      "team": "Lazio",
+      "slug": "lazio",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Lazio/lazio.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/S.S._Lazio_logo.svg",
+      "src": "commons-p154",
+      "wikidata": "Q2609",
+      "commons_file": "S.S. Lazio logo.svg",
+      "bytes": 14280
+    },
+    {
+      "team": "Lecce",
+      "slug": "lecce",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Napoli",
+      "slug": "napoli",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Napoli/napoli.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q2641",
+      "commons_file": "SSC Napoli",
+      "bytes": 6165
+    },
+    {
+      "team": "Parma",
+      "slug": "parma",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Parma/parma.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_Parma_Calcio_1913_%28adozione_2016%29.svg",
+      "src": "wikipedia",
+      "wikidata": "Q2693",
+      "commons_file": "Parma Calcio 1913",
+      "bytes": 13491
+    },
+    {
+      "team": "Pisa",
+      "slug": "pisa",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Pisa/pisa.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_Pisa_Sporting_Club.svg",
+      "src": "commons-p154",
+      "wikidata": "Q289613",
+      "commons_file": "Logo Pisa Sporting Club.svg",
+      "bytes": 19637
+    },
+    {
+      "team": "Sassuolo",
+      "slug": "sassuolo",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Torino",
+      "slug": "torino",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Udinese",
+      "slug": "udinese",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Udinese/udinese.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Udinese_Calcio_2010.svg",
+      "src": "commons-p154",
+      "wikidata": "Q2798",
+      "commons_file": "Udinese Calcio 2010.svg",
+      "bytes": 23831
+    },
+    {
+      "team": "Atlanta Hawks",
+      "slug": "atlanta-hawks",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Boston Celtics",
+      "slug": "boston-celtics",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Brooklyn Nets",
+      "slug": "brooklyn-nets",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Charlotte Hornets",
+      "slug": "charlotte-hornets",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Chicago Bulls",
+      "slug": "chicago-bulls",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "slug": "cleveland-cavaliers",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cleveland_Cavaliers_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q162990",
+      "commons_file": "Cleveland Cavaliers",
+      "bytes": 1072
+    },
+    {
+      "team": "Dallas Mavericks",
+      "slug": "dallas-mavericks",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Denver Nuggets",
+      "slug": "denver-nuggets",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Detroit Pistons",
+      "slug": "detroit-pistons",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": "NBA/Eastern Conference/Detroit Pistons/detroit-pistons.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_of_the_Detroit_Pistons.svg",
+      "src": "wikipedia",
+      "wikidata": "Q169661",
+      "commons_file": "Detroit Pistons",
+      "bytes": 7075
+    },
+    {
+      "team": "Golden State Warriors",
+      "slug": "golden-state-warriors",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": "NBA/Western Conference/Golden State Warriors/golden-state-warriors.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden_State_Warriors_wordmark_logo.svg",
+      "src": "commons-p154",
+      "wikidata": "Q157376",
+      "commons_file": "Golden State Warriors wordmark logo.svg",
+      "bytes": 14440
+    },
+    {
+      "team": "Houston Rockets",
+      "slug": "houston-rockets",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Indiana Pacers",
+      "slug": "indiana-pacers",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "LA Clippers",
+      "slug": "la-clippers",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "slug": "los-angeles-lakers",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Los_Angeles_Lakers_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q121783",
+      "commons_file": "Los Angeles Lakers",
+      "bytes": 13145
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "slug": "memphis-grizzlies",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Miami Heat",
+      "slug": "miami-heat",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "slug": "milwaukee-bucks",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Minnesota Timberwolves",
+      "slug": "minnesota-timberwolves",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "slug": "new-orleans-pelicans",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "New York Knicks",
+      "slug": "new-york-knicks",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "slug": "oklahoma-city-thunder",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Orlando Magic",
+      "slug": "orlando-magic",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "slug": "philadelphia-76ers",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphia_76ers_Logo.svg",
+      "src": "commons-p154",
+      "wikidata": "Q138089",
+      "commons_file": "Philadelphia 76ers Logo.svg",
+      "bytes": 21125
+    },
+    {
+      "team": "Phoenix Suns",
+      "slug": "phoenix-suns",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "slug": "portland-trail-blazers",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Sacramento Kings",
+      "slug": "sacramento-kings",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "San Antonio Spurs",
+      "slug": "san-antonio-spurs",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Toronto Raptors",
+      "slug": "toronto-raptors",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Utah Jazz",
+      "slug": "utah-jazz",
+      "competition": "NBA",
+      "group": "Western Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Washington Wizards",
+      "slug": "washington-wizards",
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "svg": null,
+      "reason": "png-only"
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "slug": "arizona-diamondbacks",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Arizona_Diamondbacks_logo_teal.svg",
+      "src": "wikipedia",
+      "wikidata": "Q670376",
+      "commons_file": "Arizona Diamondbacks",
+      "bytes": 5018
+    },
+    {
+      "team": "Athletics",
+      "slug": "athletics",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Athletics/athletics.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Athletics_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q504339",
+      "commons_file": "Athletics (baseball)",
+      "bytes": 2744
+    },
+    {
+      "team": "Atlanta Braves",
+      "slug": "atlanta-braves",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Atlanta Braves/atlanta-braves.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Atlanta_Braves_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q461595",
+      "commons_file": "Atlanta Braves",
+      "bytes": 1639
+    },
+    {
+      "team": "Baltimore Orioles",
+      "slug": "baltimore-orioles",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Baltimore Orioles/baltimore-orioles.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Baltimore_Orioles_Cap_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q650816",
+      "commons_file": "Baltimore Orioles",
+      "bytes": 564726
+    },
+    {
+      "team": "Boston Red Sox",
+      "slug": "boston-red-sox",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Boston Red Sox/boston-red-sox.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Boston_Red_Sox_cap_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q213959",
+      "commons_file": "Boston Red Sox",
+      "bytes": 4026
+    },
+    {
+      "team": "Chicago Cubs",
+      "slug": "chicago-cubs",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Chicago Cubs/chicago-cubs.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/80/Chicago_Cubs_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q246782",
+      "commons_file": "Chicago Cubs",
+      "bytes": 2360
+    },
+    {
+      "team": "Chicago White Sox",
+      "slug": "chicago-white-sox",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Chicago White Sox/chicago-white-sox.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chicago_White_Sox.svg",
+      "src": "wikipedia",
+      "wikidata": "Q335169",
+      "commons_file": "Chicago White Sox",
+      "bytes": 11260
+    },
+    {
+      "team": "Cincinnati Reds",
+      "slug": "cincinnati-reds",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Cincinnati Reds/cincinnati-reds.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cincinnati_Reds_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q826751",
+      "commons_file": "Cincinnati Reds",
+      "bytes": 7905
+    },
+    {
+      "team": "Cleveland Guardians",
+      "slug": "cleveland-guardians",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Cleveland Guardians/cleveland-guardians.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cleveland_Guardians_cap_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q642553",
+      "commons_file": "Cleveland Guardians",
+      "bytes": 2341
+    },
+    {
+      "team": "Colorado Rockies",
+      "slug": "colorado-rockies",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Colorado Rockies/colorado-rockies.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Colorado_Rockies_Cap_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q388858",
+      "commons_file": "Colorado Rockies",
+      "bytes": 4094
+    },
+    {
+      "team": "Detroit Tigers",
+      "slug": "detroit-tigers",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Detroit Tigers/detroit-tigers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Detroit_Tigers_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q650855",
+      "commons_file": "Detroit Tigers",
+      "bytes": 1913
+    },
+    {
+      "team": "Houston Astros",
+      "slug": "houston-astros",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Houston Astros/houston-astros.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Houston-Astros-Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q848117",
+      "commons_file": "Houston Astros",
+      "bytes": 7417
+    },
+    {
+      "team": "Kansas City Royals",
+      "slug": "kansas-city-royals",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Kansas City Royals/kansas-city-royals.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kansas_City_Royals_Primary_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q744530",
+      "commons_file": "Kansas City Royals",
+      "bytes": 7329
+    },
+    {
+      "team": "Los Angeles Angels",
+      "slug": "los-angeles-angels",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Los Angeles Angels/los-angeles-angels.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Los_Angeles_Angels_of_Anaheim.svg",
+      "src": "wikipedia",
+      "wikidata": "Q743309",
+      "commons_file": "Los Angeles Angels",
+      "bytes": 4372
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "slug": "los-angeles-dodgers",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Los_Angeles_Dodgers_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q334634",
+      "commons_file": "Los Angeles Dodgers",
+      "bytes": 9838
+    },
+    {
+      "team": "Miami Marlins",
+      "slug": "miami-marlins",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "slug": "milwaukee-brewers",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "Minnesota Twins",
+      "slug": "minnesota-twins",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Minnesota Twins/minnesota-twins.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/17/Minnesota_Twins_New_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q604879",
+      "commons_file": "Minnesota Twins",
+      "bytes": 2857
+    },
+    {
+      "team": "New York Mets",
+      "slug": "new-york-mets",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/New York Mets/new-york-mets.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/New_York_Mets_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q692417",
+      "commons_file": "New York Mets",
+      "bytes": 4482
+    },
+    {
+      "team": "New York Yankees",
+      "slug": "new-york-yankees",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/New York Yankees/new-york-yankees.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/New_York_Yankees_Primary_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q213417",
+      "commons_file": "New York Yankees",
+      "bytes": 27570
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "slug": "philadelphia-phillies",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Philadelphia Phillies/philadelphia-phillies.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Philadelphia_Phillies_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q650840",
+      "commons_file": "Philadelphia Phillies",
+      "bytes": 1587
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "slug": "pittsburgh-pirates",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pittsburgh_Pirates_logo_2014.svg",
+      "src": "wikipedia",
+      "wikidata": "Q653772",
+      "commons_file": "Pittsburgh Pirates",
+      "bytes": 774
+    },
+    {
+      "team": "San Diego Padres",
+      "slug": "san-diego-padres",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/San Diego Padres/san-diego-padres.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/SD_Logo_Brown.svg",
+      "src": "wikipedia",
+      "wikidata": "Q721134",
+      "commons_file": "San Diego Padres",
+      "bytes": 1572
+    },
+    {
+      "team": "San Francisco Giants",
+      "slug": "san-francisco-giants",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/San Francisco Giants/san-francisco-giants.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/49/San_Francisco_Giants_Cap_Insignia.svg",
+      "src": "wikipedia",
+      "wikidata": "Q308966",
+      "commons_file": "San Francisco Giants",
+      "bytes": 1393
+    },
+    {
+      "team": "Seattle Mariners",
+      "slug": "seattle-mariners",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": null,
+      "reason": "no-logo"
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "slug": "st-louis-cardinals",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/St. Louis Cardinals/st-louis-cardinals.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/St._Louis_Cardinals_insignia_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q504309",
+      "commons_file": "St. Louis Cardinals",
+      "bytes": 7773
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "slug": "tampa-bay-rays",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Tampa Bay Rays/tampa-bay-rays.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tampa_Bay_Rays_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q650865",
+      "commons_file": "Tampa Bay Rays",
+      "bytes": 8183
+    },
+    {
+      "team": "Texas Rangers",
+      "slug": "texas-rangers",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Texas Rangers/texas-rangers.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Texas_Rangers_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q329816",
+      "commons_file": "Texas Rangers (baseball)",
+      "bytes": 22549
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "slug": "toronto-blue-jays",
+      "competition": "MLB",
+      "group": "American League",
+      "svg": "MLB/American League/Toronto Blue Jays/toronto-blue-jays.svg",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Blue_Jays_wordmark_logo_wide_blue-red.svg",
+      "src": "commons-p154",
+      "wikidata": "Q650829",
+      "commons_file": "Toronto Blue Jays wordmark logo wide blue-red.svg",
+      "bytes": 12422
+    },
+    {
+      "team": "Washington Nationals",
+      "slug": "washington-nationals",
+      "competition": "MLB",
+      "group": "National League",
+      "svg": "MLB/National League/Washington Nationals/washington-nationals.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Washington_Nationals_logo.svg",
+      "src": "wikipedia",
+      "wikidata": "Q825838",
+      "commons_file": "Washington Nationals",
+      "bytes": 8583
+    }
+  ]
+}
