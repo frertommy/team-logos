@@ -49,6 +49,15 @@ QUERY_ALIAS = {
     "Inter Milan": "Inter Milan",
 }
 
+# Direct English-Wikipedia article titles for teams whose name collides with a city/word,
+# so Wikidata entity search fails. These are tried first, straight to the infobox SVG.
+TITLE_OVERRIDE = {
+    "Galatasaray": "Galatasaray S.K.",
+    "Metz": "FC Metz",
+    "Nantes": "FC Nantes",
+    "Bodo/Glimt": "FK Bodø/Glimt",
+}
+
 def strip_accents(s):
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
 def norm(s):
@@ -117,6 +126,12 @@ def wiki_pageimage(title):
         return None
 
 def resolve(team, comp):
+    to = TITLE_OVERRIDE.get(team)
+    if to:
+        img = wiki_pageimage(to)
+        if img and img.lower().rsplit("?", 1)[0].endswith(".svg"):
+            return {"status": "svg", "src": "wikipedia", "url": img, "file": to,
+                    "qid": None, "label": to, "desc": "(title override)"}
     q = QUERY_ALIAS.get(team, team)
     kw = KEYWORDS[comp]
     hits = wbsearch(q)

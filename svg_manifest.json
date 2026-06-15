@@ -201,7 +201,7 @@
       "svg": "MSI2026/Champions League/Bodo-Glimt/bodo-glimt.svg",
       "source": "https://upload.wikimedia.org/wikipedia/en/8/8d/FK_Bodo_Glimt_logo.svg",
       "src": "wikipedia",
-      "wikidata": "Q478167",
+      "wikidata": null,
       "commons_file": "FK Bodø/Glimt",
       "bytes": 8730
     },
@@ -210,8 +210,12 @@
       "slug": "galatasaray",
       "competition": "MSI2026",
       "group": "Champions League",
-      "svg": null,
-      "reason": "no-entity"
+      "svg": "MSI2026/Champions League/Galatasaray/galatasaray.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/20/Galatasaray_Sports_Club_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "Galatasaray S.K.",
+      "bytes": 7006
     },
     {
       "team": "Alaves",
@@ -470,8 +474,12 @@
       "slug": "metz",
       "competition": "MSI2026",
       "group": "Ligue 1",
-      "svg": null,
-      "reason": "no-entity"
+      "svg": "MSI2026/Ligue 1/Metz/metz.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4a/FC_Metz_2021_Logo.svg",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "FC Metz",
+      "bytes": 1420
     },
     {
       "team": "Monaco",
@@ -486,8 +494,12 @@
       "slug": "nantes",
       "competition": "MSI2026",
       "group": "Ligue 1",
-      "svg": null,
-      "reason": "no-entity"
+      "svg": "MSI2026/Ligue 1/Nantes/nantes.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_FC_Nantes_%28avec_fond%29_-_2019.svg",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "FC Nantes",
+      "bytes": 11139
     },
     {
       "team": "Nice",
