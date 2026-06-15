@@ -1,0 +1,7 @@
+# Raw downloaded master logos — reproducible via scripts/build_logos.py build
+_masters/
+
+# OS / tooling cruft
+.DS_Store
+__pycache__/
+*.pyc

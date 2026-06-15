@@ -1,0 +1,2737 @@
+{
+  "generated_from": "ESPN public sports API",
+  "variants": [
+    "big_square",
+    "big_circle",
+    "big_circle_badge",
+    "small_square",
+    "small_circle",
+    "small_circle_badge"
+  ],
+  "sizes": {
+    "big": 512,
+    "small": 128
+  },
+  "teams": [
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "1. FC Heidenheim",
+      "slug": "1-fc-heidenheim",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+      "matched_as": "1. FC Heidenheim 1846",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_big_square.png",
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_big_circle.png",
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_big_circle_badge.png",
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_small_square.png",
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_small_circle.png",
+        "MSI2026/Bundesliga/1. FC Heidenheim/1-fc-heidenheim_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "1. FC Köln",
+      "slug": "1-fc-koln",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+      "matched_as": "FC Cologne",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_big_square.png",
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_big_circle.png",
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_big_circle_badge.png",
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_small_square.png",
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_small_circle.png",
+        "MSI2026/Bundesliga/1. FC Köln/1-fc-koln_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "1899 Hoffenheim",
+      "slug": "1899-hoffenheim",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+      "matched_as": "TSG Hoffenheim",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_big_square.png",
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_big_circle.png",
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_big_circle_badge.png",
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_small_square.png",
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_small_circle.png",
+        "MSI2026/Bundesliga/1899 Hoffenheim/1899-hoffenheim_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+      "matched_as": "Bayer Leverkusen",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_big_square.png",
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_big_circle.png",
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_big_circle_badge.png",
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_small_square.png",
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_small_circle.png",
+        "MSI2026/Bundesliga/Bayer Leverkusen/bayer-leverkusen_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Bayern München",
+      "slug": "bayern-munchen",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "matched_as": "Bayern Munich",
+      "match_score": 0.89,
+      "files": [
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_big_square.png",
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_big_circle.png",
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_big_circle_badge.png",
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_small_square.png",
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_small_circle.png",
+        "MSI2026/Bundesliga/Bayern München/bayern-munchen_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "matched_as": "Borussia Dortmund",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_big_square.png",
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_big_circle.png",
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_big_circle_badge.png",
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_small_square.png",
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_small_circle.png",
+        "MSI2026/Bundesliga/Borussia Dortmund/borussia-dortmund_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Borussia Mönchengladbach",
+      "slug": "borussia-monchengladbach",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+      "matched_as": "Borussia Mönchengladbach",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_big_square.png",
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_big_circle.png",
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_big_circle_badge.png",
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_small_square.png",
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_small_circle.png",
+        "MSI2026/Bundesliga/Borussia Mönchengladbach/borussia-monchengladbach_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+      "matched_as": "Eintracht Frankfurt",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_big_square.png",
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_big_circle.png",
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_big_circle_badge.png",
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_small_square.png",
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_small_circle.png",
+        "MSI2026/Bundesliga/Eintracht Frankfurt/eintracht-frankfurt_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "FC Augsburg",
+      "slug": "fc-augsburg",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+      "matched_as": "FC Augsburg",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_big_square.png",
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_big_circle.png",
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_big_circle_badge.png",
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_small_square.png",
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_small_circle.png",
+        "MSI2026/Bundesliga/FC Augsburg/fc-augsburg_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "FC St. Pauli",
+      "slug": "fc-st-pauli",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png",
+      "matched_as": "St. Pauli",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_big_square.png",
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_big_circle.png",
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_big_circle_badge.png",
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_small_square.png",
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_small_circle.png",
+        "MSI2026/Bundesliga/FC St. Pauli/fc-st-pauli_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "FSV Mainz 05",
+      "slug": "fsv-mainz-05",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+      "matched_as": "Mainz",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_big_square.png",
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_big_circle.png",
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_big_circle_badge.png",
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_small_square.png",
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_small_circle.png",
+        "MSI2026/Bundesliga/FSV Mainz 05/fsv-mainz-05_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Hamburger SV",
+      "slug": "hamburger-sv",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+      "matched_as": "Hamburg SV",
+      "match_score": 0.88,
+      "files": [
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_big_square.png",
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_big_circle.png",
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_big_circle_badge.png",
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_small_square.png",
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_small_circle.png",
+        "MSI2026/Bundesliga/Hamburger SV/hamburger-sv_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+      "matched_as": "RB Leipzig",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_big_square.png",
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_big_circle.png",
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_big_circle_badge.png",
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_small_square.png",
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_small_circle.png",
+        "MSI2026/Bundesliga/RB Leipzig/rb-leipzig_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "SC Freiburg",
+      "slug": "sc-freiburg",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+      "matched_as": "SC Freiburg",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_big_square.png",
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_big_circle.png",
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_big_circle_badge.png",
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_small_square.png",
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_small_circle.png",
+        "MSI2026/Bundesliga/SC Freiburg/sc-freiburg_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Union Berlin",
+      "slug": "union-berlin",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+      "matched_as": "1. FC Union Berlin",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_big_square.png",
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_big_circle.png",
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_big_circle_badge.png",
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_small_square.png",
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_small_circle.png",
+        "MSI2026/Bundesliga/Union Berlin/union-berlin_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+      "matched_as": "VfB Stuttgart",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_big_square.png",
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_big_circle.png",
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_big_circle_badge.png",
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_small_square.png",
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_small_circle.png",
+        "MSI2026/Bundesliga/VfB Stuttgart/vfb-stuttgart_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "VfL Wolfsburg",
+      "slug": "vfl-wolfsburg",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+      "matched_as": "VfL Wolfsburg",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_big_square.png",
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_big_circle.png",
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_big_circle_badge.png",
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_small_square.png",
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_small_circle.png",
+        "MSI2026/Bundesliga/VfL Wolfsburg/vfl-wolfsburg_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "Werder Bremen",
+      "slug": "werder-bremen",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+      "matched_as": "Werder Bremen",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_big_square.png",
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_big_circle.png",
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_big_circle_badge.png",
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_small_square.png",
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_small_circle.png",
+        "MSI2026/Bundesliga/Werder Bremen/werder-bremen_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Champions League",
+      "team": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+      "matched_as": "Bodo/Glimt",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_big_square.png",
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_big_circle.png",
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_big_circle_badge.png",
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_small_square.png",
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_small_circle.png",
+        "MSI2026/Champions League/Bodo-Glimt/bodo-glimt_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Champions League",
+      "team": "Galatasaray",
+      "slug": "galatasaray",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "matched_as": "Galatasaray",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Champions League/Galatasaray/galatasaray_big_square.png",
+        "MSI2026/Champions League/Galatasaray/galatasaray_big_circle.png",
+        "MSI2026/Champions League/Galatasaray/galatasaray_big_circle_badge.png",
+        "MSI2026/Champions League/Galatasaray/galatasaray_small_square.png",
+        "MSI2026/Champions League/Galatasaray/galatasaray_small_circle.png",
+        "MSI2026/Champions League/Galatasaray/galatasaray_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Alaves",
+      "slug": "alaves",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "matched_as": "Alavés",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Alaves/alaves_big_square.png",
+        "MSI2026/La Liga/Alaves/alaves_big_circle.png",
+        "MSI2026/La Liga/Alaves/alaves_big_circle_badge.png",
+        "MSI2026/La Liga/Alaves/alaves_small_square.png",
+        "MSI2026/La Liga/Alaves/alaves_small_circle.png",
+        "MSI2026/La Liga/Alaves/alaves_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Athletic Club",
+      "slug": "athletic-club",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "matched_as": "Athletic Club",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Athletic Club/athletic-club_big_square.png",
+        "MSI2026/La Liga/Athletic Club/athletic-club_big_circle.png",
+        "MSI2026/La Liga/Athletic Club/athletic-club_big_circle_badge.png",
+        "MSI2026/La Liga/Athletic Club/athletic-club_small_square.png",
+        "MSI2026/La Liga/Athletic Club/athletic-club_small_circle.png",
+        "MSI2026/La Liga/Athletic Club/athletic-club_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "matched_as": "Atlético Madrid",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_big_square.png",
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_big_circle.png",
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_big_circle_badge.png",
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_small_square.png",
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_small_circle.png",
+        "MSI2026/La Liga/Atletico Madrid/atletico-madrid_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Barcelona",
+      "slug": "barcelona",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "matched_as": "Barcelona",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Barcelona/barcelona_big_square.png",
+        "MSI2026/La Liga/Barcelona/barcelona_big_circle.png",
+        "MSI2026/La Liga/Barcelona/barcelona_big_circle_badge.png",
+        "MSI2026/La Liga/Barcelona/barcelona_small_square.png",
+        "MSI2026/La Liga/Barcelona/barcelona_small_circle.png",
+        "MSI2026/La Liga/Barcelona/barcelona_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Celta Vigo",
+      "slug": "celta-vigo",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+      "matched_as": "Celta Vigo",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_big_square.png",
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_big_circle.png",
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_big_circle_badge.png",
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_small_square.png",
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_small_circle.png",
+        "MSI2026/La Liga/Celta Vigo/celta-vigo_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Elche",
+      "slug": "elche",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "matched_as": "Elche",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Elche/elche_big_square.png",
+        "MSI2026/La Liga/Elche/elche_big_circle.png",
+        "MSI2026/La Liga/Elche/elche_big_circle_badge.png",
+        "MSI2026/La Liga/Elche/elche_small_square.png",
+        "MSI2026/La Liga/Elche/elche_small_circle.png",
+        "MSI2026/La Liga/Elche/elche_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Espanyol",
+      "slug": "espanyol",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+      "matched_as": "Espanyol",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Espanyol/espanyol_big_square.png",
+        "MSI2026/La Liga/Espanyol/espanyol_big_circle.png",
+        "MSI2026/La Liga/Espanyol/espanyol_big_circle_badge.png",
+        "MSI2026/La Liga/Espanyol/espanyol_small_square.png",
+        "MSI2026/La Liga/Espanyol/espanyol_small_circle.png",
+        "MSI2026/La Liga/Espanyol/espanyol_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Getafe",
+      "slug": "getafe",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+      "matched_as": "Getafe",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Getafe/getafe_big_square.png",
+        "MSI2026/La Liga/Getafe/getafe_big_circle.png",
+        "MSI2026/La Liga/Getafe/getafe_big_circle_badge.png",
+        "MSI2026/La Liga/Getafe/getafe_small_square.png",
+        "MSI2026/La Liga/Getafe/getafe_small_circle.png",
+        "MSI2026/La Liga/Getafe/getafe_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Girona",
+      "slug": "girona",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+      "matched_as": "Girona",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Girona/girona_big_square.png",
+        "MSI2026/La Liga/Girona/girona_big_circle.png",
+        "MSI2026/La Liga/Girona/girona_big_circle_badge.png",
+        "MSI2026/La Liga/Girona/girona_small_square.png",
+        "MSI2026/La Liga/Girona/girona_small_circle.png",
+        "MSI2026/La Liga/Girona/girona_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Levante",
+      "slug": "levante",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "matched_as": "Levante",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Levante/levante_big_square.png",
+        "MSI2026/La Liga/Levante/levante_big_circle.png",
+        "MSI2026/La Liga/Levante/levante_big_circle_badge.png",
+        "MSI2026/La Liga/Levante/levante_small_square.png",
+        "MSI2026/La Liga/Levante/levante_small_circle.png",
+        "MSI2026/La Liga/Levante/levante_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Mallorca",
+      "slug": "mallorca",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+      "matched_as": "Mallorca",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Mallorca/mallorca_big_square.png",
+        "MSI2026/La Liga/Mallorca/mallorca_big_circle.png",
+        "MSI2026/La Liga/Mallorca/mallorca_big_circle_badge.png",
+        "MSI2026/La Liga/Mallorca/mallorca_small_square.png",
+        "MSI2026/La Liga/Mallorca/mallorca_small_circle.png",
+        "MSI2026/La Liga/Mallorca/mallorca_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Osasuna",
+      "slug": "osasuna",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+      "matched_as": "Osasuna",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Osasuna/osasuna_big_square.png",
+        "MSI2026/La Liga/Osasuna/osasuna_big_circle.png",
+        "MSI2026/La Liga/Osasuna/osasuna_big_circle_badge.png",
+        "MSI2026/La Liga/Osasuna/osasuna_small_square.png",
+        "MSI2026/La Liga/Osasuna/osasuna_small_circle.png",
+        "MSI2026/La Liga/Osasuna/osasuna_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Oviedo",
+      "slug": "oviedo",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+      "matched_as": "Real Oviedo",
+      "match_score": 0.95,
+      "files": [
+        "MSI2026/La Liga/Oviedo/oviedo_big_square.png",
+        "MSI2026/La Liga/Oviedo/oviedo_big_circle.png",
+        "MSI2026/La Liga/Oviedo/oviedo_big_circle_badge.png",
+        "MSI2026/La Liga/Oviedo/oviedo_small_square.png",
+        "MSI2026/La Liga/Oviedo/oviedo_small_circle.png",
+        "MSI2026/La Liga/Oviedo/oviedo_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Rayo Vallecano",
+      "slug": "rayo-vallecano",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+      "matched_as": "Rayo Vallecano",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_big_square.png",
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_big_circle.png",
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_big_circle_badge.png",
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_small_square.png",
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_small_circle.png",
+        "MSI2026/La Liga/Rayo Vallecano/rayo-vallecano_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Real Betis",
+      "slug": "real-betis",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "matched_as": "Real Betis",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Real Betis/real-betis_big_square.png",
+        "MSI2026/La Liga/Real Betis/real-betis_big_circle.png",
+        "MSI2026/La Liga/Real Betis/real-betis_big_circle_badge.png",
+        "MSI2026/La Liga/Real Betis/real-betis_small_square.png",
+        "MSI2026/La Liga/Real Betis/real-betis_small_circle.png",
+        "MSI2026/La Liga/Real Betis/real-betis_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Real Madrid",
+      "slug": "real-madrid",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "matched_as": "Real Madrid",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Real Madrid/real-madrid_big_square.png",
+        "MSI2026/La Liga/Real Madrid/real-madrid_big_circle.png",
+        "MSI2026/La Liga/Real Madrid/real-madrid_big_circle_badge.png",
+        "MSI2026/La Liga/Real Madrid/real-madrid_small_square.png",
+        "MSI2026/La Liga/Real Madrid/real-madrid_small_circle.png",
+        "MSI2026/La Liga/Real Madrid/real-madrid_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Real Sociedad",
+      "slug": "real-sociedad",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+      "matched_as": "Real Sociedad",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_big_square.png",
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_big_circle.png",
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_big_circle_badge.png",
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_small_square.png",
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_small_circle.png",
+        "MSI2026/La Liga/Real Sociedad/real-sociedad_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Sevilla",
+      "slug": "sevilla",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+      "matched_as": "Sevilla",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Sevilla/sevilla_big_square.png",
+        "MSI2026/La Liga/Sevilla/sevilla_big_circle.png",
+        "MSI2026/La Liga/Sevilla/sevilla_big_circle_badge.png",
+        "MSI2026/La Liga/Sevilla/sevilla_small_square.png",
+        "MSI2026/La Liga/Sevilla/sevilla_small_circle.png",
+        "MSI2026/La Liga/Sevilla/sevilla_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Valencia",
+      "slug": "valencia",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+      "matched_as": "Valencia",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Valencia/valencia_big_square.png",
+        "MSI2026/La Liga/Valencia/valencia_big_circle.png",
+        "MSI2026/La Liga/Valencia/valencia_big_circle_badge.png",
+        "MSI2026/La Liga/Valencia/valencia_small_square.png",
+        "MSI2026/La Liga/Valencia/valencia_small_circle.png",
+        "MSI2026/La Liga/Valencia/valencia_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Villarreal",
+      "slug": "villarreal",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "matched_as": "Villarreal",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Villarreal/villarreal_big_square.png",
+        "MSI2026/La Liga/Villarreal/villarreal_big_circle.png",
+        "MSI2026/La Liga/Villarreal/villarreal_big_circle_badge.png",
+        "MSI2026/La Liga/Villarreal/villarreal_small_square.png",
+        "MSI2026/La Liga/Villarreal/villarreal_small_circle.png",
+        "MSI2026/La Liga/Villarreal/villarreal_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Liga Portugal",
+      "team": "Sporting CP",
+      "slug": "sporting-cp",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+      "matched_as": "Sporting CP",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_big_square.png",
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_big_circle.png",
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_big_circle_badge.png",
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_small_square.png",
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_small_circle.png",
+        "MSI2026/Liga Portugal/Sporting CP/sporting-cp_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Angers",
+      "slug": "angers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+      "matched_as": "Angers",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Angers/angers_big_square.png",
+        "MSI2026/Ligue 1/Angers/angers_big_circle.png",
+        "MSI2026/Ligue 1/Angers/angers_big_circle_badge.png",
+        "MSI2026/Ligue 1/Angers/angers_small_square.png",
+        "MSI2026/Ligue 1/Angers/angers_small_circle.png",
+        "MSI2026/Ligue 1/Angers/angers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Auxerre",
+      "slug": "auxerre",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+      "matched_as": "AJ Auxerre",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Auxerre/auxerre_big_square.png",
+        "MSI2026/Ligue 1/Auxerre/auxerre_big_circle.png",
+        "MSI2026/Ligue 1/Auxerre/auxerre_big_circle_badge.png",
+        "MSI2026/Ligue 1/Auxerre/auxerre_small_square.png",
+        "MSI2026/Ligue 1/Auxerre/auxerre_small_circle.png",
+        "MSI2026/Ligue 1/Auxerre/auxerre_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Le Havre",
+      "slug": "le-havre",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+      "matched_as": "Le Havre AC",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Le Havre/le-havre_big_square.png",
+        "MSI2026/Ligue 1/Le Havre/le-havre_big_circle.png",
+        "MSI2026/Ligue 1/Le Havre/le-havre_big_circle_badge.png",
+        "MSI2026/Ligue 1/Le Havre/le-havre_small_square.png",
+        "MSI2026/Ligue 1/Le Havre/le-havre_small_circle.png",
+        "MSI2026/Ligue 1/Le Havre/le-havre_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Lens",
+      "slug": "lens",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+      "matched_as": "Lens",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Lens/lens_big_square.png",
+        "MSI2026/Ligue 1/Lens/lens_big_circle.png",
+        "MSI2026/Ligue 1/Lens/lens_big_circle_badge.png",
+        "MSI2026/Ligue 1/Lens/lens_small_square.png",
+        "MSI2026/Ligue 1/Lens/lens_small_circle.png",
+        "MSI2026/Ligue 1/Lens/lens_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Lille",
+      "slug": "lille",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "matched_as": "Lille",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Lille/lille_big_square.png",
+        "MSI2026/Ligue 1/Lille/lille_big_circle.png",
+        "MSI2026/Ligue 1/Lille/lille_big_circle_badge.png",
+        "MSI2026/Ligue 1/Lille/lille_small_square.png",
+        "MSI2026/Ligue 1/Lille/lille_small_circle.png",
+        "MSI2026/Ligue 1/Lille/lille_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Lorient",
+      "slug": "lorient",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+      "matched_as": "Lorient",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Lorient/lorient_big_square.png",
+        "MSI2026/Ligue 1/Lorient/lorient_big_circle.png",
+        "MSI2026/Ligue 1/Lorient/lorient_big_circle_badge.png",
+        "MSI2026/Ligue 1/Lorient/lorient_small_square.png",
+        "MSI2026/Ligue 1/Lorient/lorient_small_circle.png",
+        "MSI2026/Ligue 1/Lorient/lorient_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Lyon",
+      "slug": "lyon",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+      "matched_as": "Lyon",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Lyon/lyon_big_square.png",
+        "MSI2026/Ligue 1/Lyon/lyon_big_circle.png",
+        "MSI2026/Ligue 1/Lyon/lyon_big_circle_badge.png",
+        "MSI2026/Ligue 1/Lyon/lyon_small_square.png",
+        "MSI2026/Ligue 1/Lyon/lyon_small_circle.png",
+        "MSI2026/Ligue 1/Lyon/lyon_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Marseille",
+      "slug": "marseille",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+      "matched_as": "Marseille",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Marseille/marseille_big_square.png",
+        "MSI2026/Ligue 1/Marseille/marseille_big_circle.png",
+        "MSI2026/Ligue 1/Marseille/marseille_big_circle_badge.png",
+        "MSI2026/Ligue 1/Marseille/marseille_small_square.png",
+        "MSI2026/Ligue 1/Marseille/marseille_small_circle.png",
+        "MSI2026/Ligue 1/Marseille/marseille_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Metz",
+      "slug": "metz",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+      "matched_as": "Metz",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Metz/metz_big_square.png",
+        "MSI2026/Ligue 1/Metz/metz_big_circle.png",
+        "MSI2026/Ligue 1/Metz/metz_big_circle_badge.png",
+        "MSI2026/Ligue 1/Metz/metz_small_square.png",
+        "MSI2026/Ligue 1/Metz/metz_small_circle.png",
+        "MSI2026/Ligue 1/Metz/metz_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Monaco",
+      "slug": "monaco",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+      "matched_as": "AS Monaco",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Monaco/monaco_big_square.png",
+        "MSI2026/Ligue 1/Monaco/monaco_big_circle.png",
+        "MSI2026/Ligue 1/Monaco/monaco_big_circle_badge.png",
+        "MSI2026/Ligue 1/Monaco/monaco_small_square.png",
+        "MSI2026/Ligue 1/Monaco/monaco_small_circle.png",
+        "MSI2026/Ligue 1/Monaco/monaco_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Nantes",
+      "slug": "nantes",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
+      "matched_as": "Nantes",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Nantes/nantes_big_square.png",
+        "MSI2026/Ligue 1/Nantes/nantes_big_circle.png",
+        "MSI2026/Ligue 1/Nantes/nantes_big_circle_badge.png",
+        "MSI2026/Ligue 1/Nantes/nantes_small_square.png",
+        "MSI2026/Ligue 1/Nantes/nantes_small_circle.png",
+        "MSI2026/Ligue 1/Nantes/nantes_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Nice",
+      "slug": "nice",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+      "matched_as": "Nice",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Nice/nice_big_square.png",
+        "MSI2026/Ligue 1/Nice/nice_big_circle.png",
+        "MSI2026/Ligue 1/Nice/nice_big_circle_badge.png",
+        "MSI2026/Ligue 1/Nice/nice_small_square.png",
+        "MSI2026/Ligue 1/Nice/nice_small_circle.png",
+        "MSI2026/Ligue 1/Nice/nice_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Paris FC",
+      "slug": "paris-fc",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+      "matched_as": "Paris FC",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Paris FC/paris-fc_big_square.png",
+        "MSI2026/Ligue 1/Paris FC/paris-fc_big_circle.png",
+        "MSI2026/Ligue 1/Paris FC/paris-fc_big_circle_badge.png",
+        "MSI2026/Ligue 1/Paris FC/paris-fc_small_square.png",
+        "MSI2026/Ligue 1/Paris FC/paris-fc_small_circle.png",
+        "MSI2026/Ligue 1/Paris FC/paris-fc_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "matched_as": "Paris Saint-Germain",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_big_square.png",
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_big_circle.png",
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_big_circle_badge.png",
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_small_square.png",
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_small_circle.png",
+        "MSI2026/Ligue 1/Paris Saint Germain/paris-saint-germain_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Rennes",
+      "slug": "rennes",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "matched_as": "Stade Rennais",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Rennes/rennes_big_square.png",
+        "MSI2026/Ligue 1/Rennes/rennes_big_circle.png",
+        "MSI2026/Ligue 1/Rennes/rennes_big_circle_badge.png",
+        "MSI2026/Ligue 1/Rennes/rennes_small_square.png",
+        "MSI2026/Ligue 1/Rennes/rennes_small_circle.png",
+        "MSI2026/Ligue 1/Rennes/rennes_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+      "matched_as": "Brest",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_big_square.png",
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_big_circle.png",
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_big_circle_badge.png",
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_small_square.png",
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_small_circle.png",
+        "MSI2026/Ligue 1/Stade Brestois 29/stade-brestois-29_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Strasbourg",
+      "slug": "strasbourg",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+      "matched_as": "Strasbourg",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_big_square.png",
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_big_circle.png",
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_big_circle_badge.png",
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_small_square.png",
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_small_circle.png",
+        "MSI2026/Ligue 1/Strasbourg/strasbourg_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Toulouse",
+      "slug": "toulouse",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+      "matched_as": "Toulouse",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Toulouse/toulouse_big_square.png",
+        "MSI2026/Ligue 1/Toulouse/toulouse_big_circle.png",
+        "MSI2026/Ligue 1/Toulouse/toulouse_big_circle_badge.png",
+        "MSI2026/Ligue 1/Toulouse/toulouse_small_square.png",
+        "MSI2026/Ligue 1/Toulouse/toulouse_small_circle.png",
+        "MSI2026/Ligue 1/Toulouse/toulouse_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Arsenal",
+      "slug": "arsenal",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+      "matched_as": "Arsenal",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Arsenal/arsenal_big_square.png",
+        "MSI2026/Premier League/Arsenal/arsenal_big_circle.png",
+        "MSI2026/Premier League/Arsenal/arsenal_big_circle_badge.png",
+        "MSI2026/Premier League/Arsenal/arsenal_small_square.png",
+        "MSI2026/Premier League/Arsenal/arsenal_small_circle.png",
+        "MSI2026/Premier League/Arsenal/arsenal_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Aston Villa",
+      "slug": "aston-villa",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "matched_as": "Aston Villa",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Aston Villa/aston-villa_big_square.png",
+        "MSI2026/Premier League/Aston Villa/aston-villa_big_circle.png",
+        "MSI2026/Premier League/Aston Villa/aston-villa_big_circle_badge.png",
+        "MSI2026/Premier League/Aston Villa/aston-villa_small_square.png",
+        "MSI2026/Premier League/Aston Villa/aston-villa_small_circle.png",
+        "MSI2026/Premier League/Aston Villa/aston-villa_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Bournemouth",
+      "slug": "bournemouth",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+      "matched_as": "AFC Bournemouth",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Bournemouth/bournemouth_big_square.png",
+        "MSI2026/Premier League/Bournemouth/bournemouth_big_circle.png",
+        "MSI2026/Premier League/Bournemouth/bournemouth_big_circle_badge.png",
+        "MSI2026/Premier League/Bournemouth/bournemouth_small_square.png",
+        "MSI2026/Premier League/Bournemouth/bournemouth_small_circle.png",
+        "MSI2026/Premier League/Bournemouth/bournemouth_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Brentford",
+      "slug": "brentford",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+      "matched_as": "Brentford",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Brentford/brentford_big_square.png",
+        "MSI2026/Premier League/Brentford/brentford_big_circle.png",
+        "MSI2026/Premier League/Brentford/brentford_big_circle_badge.png",
+        "MSI2026/Premier League/Brentford/brentford_small_square.png",
+        "MSI2026/Premier League/Brentford/brentford_small_circle.png",
+        "MSI2026/Premier League/Brentford/brentford_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Brighton",
+      "slug": "brighton",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+      "matched_as": "Brighton & Hove Albion",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Brighton/brighton_big_square.png",
+        "MSI2026/Premier League/Brighton/brighton_big_circle.png",
+        "MSI2026/Premier League/Brighton/brighton_big_circle_badge.png",
+        "MSI2026/Premier League/Brighton/brighton_small_square.png",
+        "MSI2026/Premier League/Brighton/brighton_small_circle.png",
+        "MSI2026/Premier League/Brighton/brighton_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Burnley",
+      "slug": "burnley",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+      "matched_as": "Burnley",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Burnley/burnley_big_square.png",
+        "MSI2026/Premier League/Burnley/burnley_big_circle.png",
+        "MSI2026/Premier League/Burnley/burnley_big_circle_badge.png",
+        "MSI2026/Premier League/Burnley/burnley_small_square.png",
+        "MSI2026/Premier League/Burnley/burnley_small_circle.png",
+        "MSI2026/Premier League/Burnley/burnley_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Chelsea",
+      "slug": "chelsea",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+      "matched_as": "Chelsea",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Chelsea/chelsea_big_square.png",
+        "MSI2026/Premier League/Chelsea/chelsea_big_circle.png",
+        "MSI2026/Premier League/Chelsea/chelsea_big_circle_badge.png",
+        "MSI2026/Premier League/Chelsea/chelsea_small_square.png",
+        "MSI2026/Premier League/Chelsea/chelsea_small_circle.png",
+        "MSI2026/Premier League/Chelsea/chelsea_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Crystal Palace",
+      "slug": "crystal-palace",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+      "matched_as": "Crystal Palace",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_big_square.png",
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_big_circle.png",
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_big_circle_badge.png",
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_small_square.png",
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_small_circle.png",
+        "MSI2026/Premier League/Crystal Palace/crystal-palace_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Everton",
+      "slug": "everton",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+      "matched_as": "Everton",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Everton/everton_big_square.png",
+        "MSI2026/Premier League/Everton/everton_big_circle.png",
+        "MSI2026/Premier League/Everton/everton_big_circle_badge.png",
+        "MSI2026/Premier League/Everton/everton_small_square.png",
+        "MSI2026/Premier League/Everton/everton_small_circle.png",
+        "MSI2026/Premier League/Everton/everton_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Fulham",
+      "slug": "fulham",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+      "matched_as": "Fulham",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Fulham/fulham_big_square.png",
+        "MSI2026/Premier League/Fulham/fulham_big_circle.png",
+        "MSI2026/Premier League/Fulham/fulham_big_circle_badge.png",
+        "MSI2026/Premier League/Fulham/fulham_small_square.png",
+        "MSI2026/Premier League/Fulham/fulham_small_circle.png",
+        "MSI2026/Premier League/Fulham/fulham_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Leeds",
+      "slug": "leeds",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+      "matched_as": "Leeds United",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Leeds/leeds_big_square.png",
+        "MSI2026/Premier League/Leeds/leeds_big_circle.png",
+        "MSI2026/Premier League/Leeds/leeds_big_circle_badge.png",
+        "MSI2026/Premier League/Leeds/leeds_small_square.png",
+        "MSI2026/Premier League/Leeds/leeds_small_circle.png",
+        "MSI2026/Premier League/Leeds/leeds_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Liverpool",
+      "slug": "liverpool",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+      "matched_as": "Liverpool",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Liverpool/liverpool_big_square.png",
+        "MSI2026/Premier League/Liverpool/liverpool_big_circle.png",
+        "MSI2026/Premier League/Liverpool/liverpool_big_circle_badge.png",
+        "MSI2026/Premier League/Liverpool/liverpool_small_square.png",
+        "MSI2026/Premier League/Liverpool/liverpool_small_circle.png",
+        "MSI2026/Premier League/Liverpool/liverpool_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Manchester City",
+      "slug": "manchester-city",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+      "matched_as": "Manchester City",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Manchester City/manchester-city_big_square.png",
+        "MSI2026/Premier League/Manchester City/manchester-city_big_circle.png",
+        "MSI2026/Premier League/Manchester City/manchester-city_big_circle_badge.png",
+        "MSI2026/Premier League/Manchester City/manchester-city_small_square.png",
+        "MSI2026/Premier League/Manchester City/manchester-city_small_circle.png",
+        "MSI2026/Premier League/Manchester City/manchester-city_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Manchester United",
+      "slug": "manchester-united",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+      "matched_as": "Manchester United",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Manchester United/manchester-united_big_square.png",
+        "MSI2026/Premier League/Manchester United/manchester-united_big_circle.png",
+        "MSI2026/Premier League/Manchester United/manchester-united_big_circle_badge.png",
+        "MSI2026/Premier League/Manchester United/manchester-united_small_square.png",
+        "MSI2026/Premier League/Manchester United/manchester-united_small_circle.png",
+        "MSI2026/Premier League/Manchester United/manchester-united_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Newcastle",
+      "slug": "newcastle",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+      "matched_as": "Newcastle United",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Newcastle/newcastle_big_square.png",
+        "MSI2026/Premier League/Newcastle/newcastle_big_circle.png",
+        "MSI2026/Premier League/Newcastle/newcastle_big_circle_badge.png",
+        "MSI2026/Premier League/Newcastle/newcastle_small_square.png",
+        "MSI2026/Premier League/Newcastle/newcastle_small_circle.png",
+        "MSI2026/Premier League/Newcastle/newcastle_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Nottingham Forest",
+      "slug": "nottingham-forest",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+      "matched_as": "Nottingham Forest",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_big_square.png",
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_big_circle.png",
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_big_circle_badge.png",
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_small_square.png",
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_small_circle.png",
+        "MSI2026/Premier League/Nottingham Forest/nottingham-forest_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Southampton",
+      "slug": "southampton",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+      "matched_as": "Southampton",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Southampton/southampton_big_square.png",
+        "MSI2026/Premier League/Southampton/southampton_big_circle.png",
+        "MSI2026/Premier League/Southampton/southampton_big_circle_badge.png",
+        "MSI2026/Premier League/Southampton/southampton_small_square.png",
+        "MSI2026/Premier League/Southampton/southampton_small_circle.png",
+        "MSI2026/Premier League/Southampton/southampton_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Sunderland",
+      "slug": "sunderland",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+      "matched_as": "Sunderland",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Sunderland/sunderland_big_square.png",
+        "MSI2026/Premier League/Sunderland/sunderland_big_circle.png",
+        "MSI2026/Premier League/Sunderland/sunderland_big_circle_badge.png",
+        "MSI2026/Premier League/Sunderland/sunderland_small_square.png",
+        "MSI2026/Premier League/Sunderland/sunderland_small_circle.png",
+        "MSI2026/Premier League/Sunderland/sunderland_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Tottenham",
+      "slug": "tottenham",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+      "matched_as": "Tottenham Hotspur",
+      "match_score": 0.95,
+      "files": [
+        "MSI2026/Premier League/Tottenham/tottenham_big_square.png",
+        "MSI2026/Premier League/Tottenham/tottenham_big_circle.png",
+        "MSI2026/Premier League/Tottenham/tottenham_big_circle_badge.png",
+        "MSI2026/Premier League/Tottenham/tottenham_small_square.png",
+        "MSI2026/Premier League/Tottenham/tottenham_small_circle.png",
+        "MSI2026/Premier League/Tottenham/tottenham_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "West Ham",
+      "slug": "west-ham",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+      "matched_as": "West Ham United",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/West Ham/west-ham_big_square.png",
+        "MSI2026/Premier League/West Ham/west-ham_big_circle.png",
+        "MSI2026/Premier League/West Ham/west-ham_big_circle_badge.png",
+        "MSI2026/Premier League/West Ham/west-ham_small_square.png",
+        "MSI2026/Premier League/West Ham/west-ham_small_circle.png",
+        "MSI2026/Premier League/West Ham/west-ham_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Wolves",
+      "slug": "wolves",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+      "matched_as": "Wolverhampton Wanderers",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Wolves/wolves_big_square.png",
+        "MSI2026/Premier League/Wolves/wolves_big_circle.png",
+        "MSI2026/Premier League/Wolves/wolves_big_circle_badge.png",
+        "MSI2026/Premier League/Wolves/wolves_small_square.png",
+        "MSI2026/Premier League/Wolves/wolves_small_circle.png",
+        "MSI2026/Premier League/Wolves/wolves_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "AC Milan",
+      "slug": "ac-milan",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "matched_as": "AC Milan",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/AC Milan/ac-milan_big_square.png",
+        "MSI2026/Serie A/AC Milan/ac-milan_big_circle.png",
+        "MSI2026/Serie A/AC Milan/ac-milan_big_circle_badge.png",
+        "MSI2026/Serie A/AC Milan/ac-milan_small_square.png",
+        "MSI2026/Serie A/AC Milan/ac-milan_small_circle.png",
+        "MSI2026/Serie A/AC Milan/ac-milan_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "AS Roma",
+      "slug": "as-roma",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+      "matched_as": "AS Roma",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/AS Roma/as-roma_big_square.png",
+        "MSI2026/Serie A/AS Roma/as-roma_big_circle.png",
+        "MSI2026/Serie A/AS Roma/as-roma_big_circle_badge.png",
+        "MSI2026/Serie A/AS Roma/as-roma_small_square.png",
+        "MSI2026/Serie A/AS Roma/as-roma_small_circle.png",
+        "MSI2026/Serie A/AS Roma/as-roma_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Atalanta",
+      "slug": "atalanta",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "matched_as": "Atalanta",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Atalanta/atalanta_big_square.png",
+        "MSI2026/Serie A/Atalanta/atalanta_big_circle.png",
+        "MSI2026/Serie A/Atalanta/atalanta_big_circle_badge.png",
+        "MSI2026/Serie A/Atalanta/atalanta_small_square.png",
+        "MSI2026/Serie A/Atalanta/atalanta_small_circle.png",
+        "MSI2026/Serie A/Atalanta/atalanta_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Bologna",
+      "slug": "bologna",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "matched_as": "Bologna",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Bologna/bologna_big_square.png",
+        "MSI2026/Serie A/Bologna/bologna_big_circle.png",
+        "MSI2026/Serie A/Bologna/bologna_big_circle_badge.png",
+        "MSI2026/Serie A/Bologna/bologna_small_square.png",
+        "MSI2026/Serie A/Bologna/bologna_small_circle.png",
+        "MSI2026/Serie A/Bologna/bologna_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Cagliari",
+      "slug": "cagliari",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+      "matched_as": "Cagliari",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Cagliari/cagliari_big_square.png",
+        "MSI2026/Serie A/Cagliari/cagliari_big_circle.png",
+        "MSI2026/Serie A/Cagliari/cagliari_big_circle_badge.png",
+        "MSI2026/Serie A/Cagliari/cagliari_small_square.png",
+        "MSI2026/Serie A/Cagliari/cagliari_small_circle.png",
+        "MSI2026/Serie A/Cagliari/cagliari_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Como",
+      "slug": "como",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "matched_as": "Como",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Como/como_big_square.png",
+        "MSI2026/Serie A/Como/como_big_circle.png",
+        "MSI2026/Serie A/Como/como_big_circle_badge.png",
+        "MSI2026/Serie A/Como/como_small_square.png",
+        "MSI2026/Serie A/Como/como_small_circle.png",
+        "MSI2026/Serie A/Como/como_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Cremonese",
+      "slug": "cremonese",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
+      "matched_as": "ESPN id 4050",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Cremonese/cremonese_big_square.png",
+        "MSI2026/Serie A/Cremonese/cremonese_big_circle.png",
+        "MSI2026/Serie A/Cremonese/cremonese_big_circle_badge.png",
+        "MSI2026/Serie A/Cremonese/cremonese_small_square.png",
+        "MSI2026/Serie A/Cremonese/cremonese_small_circle.png",
+        "MSI2026/Serie A/Cremonese/cremonese_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Fiorentina",
+      "slug": "fiorentina",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "matched_as": "Fiorentina",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Fiorentina/fiorentina_big_square.png",
+        "MSI2026/Serie A/Fiorentina/fiorentina_big_circle.png",
+        "MSI2026/Serie A/Fiorentina/fiorentina_big_circle_badge.png",
+        "MSI2026/Serie A/Fiorentina/fiorentina_small_square.png",
+        "MSI2026/Serie A/Fiorentina/fiorentina_small_circle.png",
+        "MSI2026/Serie A/Fiorentina/fiorentina_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Genoa",
+      "slug": "genoa",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "matched_as": "Genoa",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Genoa/genoa_big_square.png",
+        "MSI2026/Serie A/Genoa/genoa_big_circle.png",
+        "MSI2026/Serie A/Genoa/genoa_big_circle_badge.png",
+        "MSI2026/Serie A/Genoa/genoa_small_square.png",
+        "MSI2026/Serie A/Genoa/genoa_small_circle.png",
+        "MSI2026/Serie A/Genoa/genoa_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Hellas Verona",
+      "slug": "hellas-verona",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png",
+      "matched_as": "ESPN id 119",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_big_square.png",
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_big_circle.png",
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_big_circle_badge.png",
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_small_square.png",
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_small_circle.png",
+        "MSI2026/Serie A/Hellas Verona/hellas-verona_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Inter",
+      "slug": "inter",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "matched_as": "Internazionale",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Inter/inter_big_square.png",
+        "MSI2026/Serie A/Inter/inter_big_circle.png",
+        "MSI2026/Serie A/Inter/inter_big_circle_badge.png",
+        "MSI2026/Serie A/Inter/inter_small_square.png",
+        "MSI2026/Serie A/Inter/inter_small_circle.png",
+        "MSI2026/Serie A/Inter/inter_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Juventus",
+      "slug": "juventus",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "matched_as": "Juventus",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Juventus/juventus_big_square.png",
+        "MSI2026/Serie A/Juventus/juventus_big_circle.png",
+        "MSI2026/Serie A/Juventus/juventus_big_circle_badge.png",
+        "MSI2026/Serie A/Juventus/juventus_small_square.png",
+        "MSI2026/Serie A/Juventus/juventus_small_circle.png",
+        "MSI2026/Serie A/Juventus/juventus_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Lazio",
+      "slug": "lazio",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+      "matched_as": "Lazio",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Lazio/lazio_big_square.png",
+        "MSI2026/Serie A/Lazio/lazio_big_circle.png",
+        "MSI2026/Serie A/Lazio/lazio_big_circle_badge.png",
+        "MSI2026/Serie A/Lazio/lazio_small_square.png",
+        "MSI2026/Serie A/Lazio/lazio_small_circle.png",
+        "MSI2026/Serie A/Lazio/lazio_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Lecce",
+      "slug": "lecce",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+      "matched_as": "Lecce",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Lecce/lecce_big_square.png",
+        "MSI2026/Serie A/Lecce/lecce_big_circle.png",
+        "MSI2026/Serie A/Lecce/lecce_big_circle_badge.png",
+        "MSI2026/Serie A/Lecce/lecce_small_square.png",
+        "MSI2026/Serie A/Lecce/lecce_small_circle.png",
+        "MSI2026/Serie A/Lecce/lecce_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Napoli",
+      "slug": "napoli",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "matched_as": "Napoli",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Napoli/napoli_big_square.png",
+        "MSI2026/Serie A/Napoli/napoli_big_circle.png",
+        "MSI2026/Serie A/Napoli/napoli_big_circle_badge.png",
+        "MSI2026/Serie A/Napoli/napoli_small_square.png",
+        "MSI2026/Serie A/Napoli/napoli_small_circle.png",
+        "MSI2026/Serie A/Napoli/napoli_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Parma",
+      "slug": "parma",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+      "matched_as": "Parma",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Parma/parma_big_square.png",
+        "MSI2026/Serie A/Parma/parma_big_circle.png",
+        "MSI2026/Serie A/Parma/parma_big_circle_badge.png",
+        "MSI2026/Serie A/Parma/parma_small_square.png",
+        "MSI2026/Serie A/Parma/parma_small_circle.png",
+        "MSI2026/Serie A/Parma/parma_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Pisa",
+      "slug": "pisa",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+      "matched_as": "ESPN id 3956",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Pisa/pisa_big_square.png",
+        "MSI2026/Serie A/Pisa/pisa_big_circle.png",
+        "MSI2026/Serie A/Pisa/pisa_big_circle_badge.png",
+        "MSI2026/Serie A/Pisa/pisa_small_square.png",
+        "MSI2026/Serie A/Pisa/pisa_small_circle.png",
+        "MSI2026/Serie A/Pisa/pisa_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Sassuolo",
+      "slug": "sassuolo",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+      "matched_as": "Sassuolo",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Sassuolo/sassuolo_big_square.png",
+        "MSI2026/Serie A/Sassuolo/sassuolo_big_circle.png",
+        "MSI2026/Serie A/Sassuolo/sassuolo_big_circle_badge.png",
+        "MSI2026/Serie A/Sassuolo/sassuolo_small_square.png",
+        "MSI2026/Serie A/Sassuolo/sassuolo_small_circle.png",
+        "MSI2026/Serie A/Sassuolo/sassuolo_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Torino",
+      "slug": "torino",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+      "matched_as": "Torino",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Torino/torino_big_square.png",
+        "MSI2026/Serie A/Torino/torino_big_circle.png",
+        "MSI2026/Serie A/Torino/torino_big_circle_badge.png",
+        "MSI2026/Serie A/Torino/torino_small_square.png",
+        "MSI2026/Serie A/Torino/torino_small_circle.png",
+        "MSI2026/Serie A/Torino/torino_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Udinese",
+      "slug": "udinese",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+      "matched_as": "Udinese",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Udinese/udinese_big_square.png",
+        "MSI2026/Serie A/Udinese/udinese_big_circle.png",
+        "MSI2026/Serie A/Udinese/udinese_big_circle_badge.png",
+        "MSI2026/Serie A/Udinese/udinese_small_square.png",
+        "MSI2026/Serie A/Udinese/udinese_small_circle.png",
+        "MSI2026/Serie A/Udinese/udinese_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Atlanta Hawks",
+      "slug": "atlanta-hawks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+      "matched_as": "Atlanta Hawks",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_big_square.png",
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_big_circle.png",
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_big_circle_badge.png",
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_small_square.png",
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_small_circle.png",
+        "NBA/Eastern Conference/Atlanta Hawks/atlanta-hawks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Boston Celtics",
+      "slug": "boston-celtics",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+      "matched_as": "Boston Celtics",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_big_square.png",
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_big_circle.png",
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_big_circle_badge.png",
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_small_square.png",
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_small_circle.png",
+        "NBA/Eastern Conference/Boston Celtics/boston-celtics_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Brooklyn Nets",
+      "slug": "brooklyn-nets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+      "matched_as": "Brooklyn Nets",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_big_square.png",
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_big_circle.png",
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_big_circle_badge.png",
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_small_square.png",
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_small_circle.png",
+        "NBA/Eastern Conference/Brooklyn Nets/brooklyn-nets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Charlotte Hornets",
+      "slug": "charlotte-hornets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+      "matched_as": "Charlotte Hornets",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_big_square.png",
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_big_circle.png",
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_big_circle_badge.png",
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_small_square.png",
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_small_circle.png",
+        "NBA/Eastern Conference/Charlotte Hornets/charlotte-hornets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Chicago Bulls",
+      "slug": "chicago-bulls",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+      "matched_as": "Chicago Bulls",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_big_square.png",
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_big_circle.png",
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_big_circle_badge.png",
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_small_square.png",
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_small_circle.png",
+        "NBA/Eastern Conference/Chicago Bulls/chicago-bulls_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Cleveland Cavaliers",
+      "slug": "cleveland-cavaliers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+      "matched_as": "Cleveland Cavaliers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_big_square.png",
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_big_circle.png",
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_big_circle_badge.png",
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_small_square.png",
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_small_circle.png",
+        "NBA/Eastern Conference/Cleveland Cavaliers/cleveland-cavaliers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Dallas Mavericks",
+      "slug": "dallas-mavericks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+      "matched_as": "Dallas Mavericks",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_big_square.png",
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_big_circle.png",
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_big_circle_badge.png",
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_small_square.png",
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_small_circle.png",
+        "NBA/Western Conference/Dallas Mavericks/dallas-mavericks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Denver Nuggets",
+      "slug": "denver-nuggets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+      "matched_as": "Denver Nuggets",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_big_square.png",
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_big_circle.png",
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_big_circle_badge.png",
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_small_square.png",
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_small_circle.png",
+        "NBA/Western Conference/Denver Nuggets/denver-nuggets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Detroit Pistons",
+      "slug": "detroit-pistons",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+      "matched_as": "Detroit Pistons",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_big_square.png",
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_big_circle.png",
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_big_circle_badge.png",
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_small_square.png",
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_small_circle.png",
+        "NBA/Eastern Conference/Detroit Pistons/detroit-pistons_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Golden State Warriors",
+      "slug": "golden-state-warriors",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
+      "matched_as": "Golden State Warriors",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_big_square.png",
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_big_circle.png",
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_big_circle_badge.png",
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_small_square.png",
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_small_circle.png",
+        "NBA/Western Conference/Golden State Warriors/golden-state-warriors_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Houston Rockets",
+      "slug": "houston-rockets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+      "matched_as": "Houston Rockets",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Houston Rockets/houston-rockets_big_square.png",
+        "NBA/Western Conference/Houston Rockets/houston-rockets_big_circle.png",
+        "NBA/Western Conference/Houston Rockets/houston-rockets_big_circle_badge.png",
+        "NBA/Western Conference/Houston Rockets/houston-rockets_small_square.png",
+        "NBA/Western Conference/Houston Rockets/houston-rockets_small_circle.png",
+        "NBA/Western Conference/Houston Rockets/houston-rockets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Indiana Pacers",
+      "slug": "indiana-pacers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+      "matched_as": "Indiana Pacers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_big_square.png",
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_big_circle.png",
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_big_circle_badge.png",
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_small_square.png",
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_small_circle.png",
+        "NBA/Eastern Conference/Indiana Pacers/indiana-pacers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "LA Clippers",
+      "slug": "la-clippers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+      "matched_as": "LA Clippers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/LA Clippers/la-clippers_big_square.png",
+        "NBA/Western Conference/LA Clippers/la-clippers_big_circle.png",
+        "NBA/Western Conference/LA Clippers/la-clippers_big_circle_badge.png",
+        "NBA/Western Conference/LA Clippers/la-clippers_small_square.png",
+        "NBA/Western Conference/LA Clippers/la-clippers_small_circle.png",
+        "NBA/Western Conference/LA Clippers/la-clippers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Los Angeles Lakers",
+      "slug": "los-angeles-lakers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+      "matched_as": "Los Angeles Lakers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_big_square.png",
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_big_circle.png",
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_big_circle_badge.png",
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_small_square.png",
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_small_circle.png",
+        "NBA/Western Conference/Los Angeles Lakers/los-angeles-lakers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Memphis Grizzlies",
+      "slug": "memphis-grizzlies",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+      "matched_as": "Memphis Grizzlies",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_big_square.png",
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_big_circle.png",
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_big_circle_badge.png",
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_small_square.png",
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_small_circle.png",
+        "NBA/Western Conference/Memphis Grizzlies/memphis-grizzlies_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Miami Heat",
+      "slug": "miami-heat",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+      "matched_as": "Miami Heat",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Miami Heat/miami-heat_big_square.png",
+        "NBA/Eastern Conference/Miami Heat/miami-heat_big_circle.png",
+        "NBA/Eastern Conference/Miami Heat/miami-heat_big_circle_badge.png",
+        "NBA/Eastern Conference/Miami Heat/miami-heat_small_square.png",
+        "NBA/Eastern Conference/Miami Heat/miami-heat_small_circle.png",
+        "NBA/Eastern Conference/Miami Heat/miami-heat_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Milwaukee Bucks",
+      "slug": "milwaukee-bucks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+      "matched_as": "Milwaukee Bucks",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_big_square.png",
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_big_circle.png",
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_big_circle_badge.png",
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_small_square.png",
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_small_circle.png",
+        "NBA/Eastern Conference/Milwaukee Bucks/milwaukee-bucks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Minnesota Timberwolves",
+      "slug": "minnesota-timberwolves",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+      "matched_as": "Minnesota Timberwolves",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_big_square.png",
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_big_circle.png",
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_big_circle_badge.png",
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_small_square.png",
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_small_circle.png",
+        "NBA/Western Conference/Minnesota Timberwolves/minnesota-timberwolves_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "New Orleans Pelicans",
+      "slug": "new-orleans-pelicans",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
+      "matched_as": "New Orleans Pelicans",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_big_square.png",
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_big_circle.png",
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_big_circle_badge.png",
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_small_square.png",
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_small_circle.png",
+        "NBA/Western Conference/New Orleans Pelicans/new-orleans-pelicans_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "New York Knicks",
+      "slug": "new-york-knicks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+      "matched_as": "New York Knicks",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_big_square.png",
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_big_circle.png",
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_big_circle_badge.png",
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_small_square.png",
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_small_circle.png",
+        "NBA/Eastern Conference/New York Knicks/new-york-knicks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Oklahoma City Thunder",
+      "slug": "oklahoma-city-thunder",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+      "matched_as": "Oklahoma City Thunder",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_big_square.png",
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_big_circle.png",
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_big_circle_badge.png",
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_small_square.png",
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_small_circle.png",
+        "NBA/Western Conference/Oklahoma City Thunder/oklahoma-city-thunder_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Orlando Magic",
+      "slug": "orlando-magic",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+      "matched_as": "Orlando Magic",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_big_square.png",
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_big_circle.png",
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_big_circle_badge.png",
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_small_square.png",
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_small_circle.png",
+        "NBA/Eastern Conference/Orlando Magic/orlando-magic_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Philadelphia 76ers",
+      "slug": "philadelphia-76ers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "matched_as": "Philadelphia 76ers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_big_square.png",
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_big_circle.png",
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_big_circle_badge.png",
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_small_square.png",
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_small_circle.png",
+        "NBA/Eastern Conference/Philadelphia 76ers/philadelphia-76ers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Phoenix Suns",
+      "slug": "phoenix-suns",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+      "matched_as": "Phoenix Suns",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_big_square.png",
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_big_circle.png",
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_big_circle_badge.png",
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_small_square.png",
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_small_circle.png",
+        "NBA/Western Conference/Phoenix Suns/phoenix-suns_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Portland Trail Blazers",
+      "slug": "portland-trail-blazers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+      "matched_as": "Portland Trail Blazers",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_big_square.png",
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_big_circle.png",
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_big_circle_badge.png",
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_small_square.png",
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_small_circle.png",
+        "NBA/Western Conference/Portland Trail Blazers/portland-trail-blazers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Sacramento Kings",
+      "slug": "sacramento-kings",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+      "matched_as": "Sacramento Kings",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_big_square.png",
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_big_circle.png",
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_big_circle_badge.png",
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_small_square.png",
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_small_circle.png",
+        "NBA/Western Conference/Sacramento Kings/sacramento-kings_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "San Antonio Spurs",
+      "slug": "san-antonio-spurs",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+      "matched_as": "San Antonio Spurs",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_big_square.png",
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_big_circle.png",
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_big_circle_badge.png",
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_small_square.png",
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_small_circle.png",
+        "NBA/Western Conference/San Antonio Spurs/san-antonio-spurs_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Toronto Raptors",
+      "slug": "toronto-raptors",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+      "matched_as": "Toronto Raptors",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_big_square.png",
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_big_circle.png",
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_big_circle_badge.png",
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_small_square.png",
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_small_circle.png",
+        "NBA/Eastern Conference/Toronto Raptors/toronto-raptors_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Western Conference",
+      "team": "Utah Jazz",
+      "slug": "utah-jazz",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
+      "matched_as": "Utah Jazz",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Western Conference/Utah Jazz/utah-jazz_big_square.png",
+        "NBA/Western Conference/Utah Jazz/utah-jazz_big_circle.png",
+        "NBA/Western Conference/Utah Jazz/utah-jazz_big_circle_badge.png",
+        "NBA/Western Conference/Utah Jazz/utah-jazz_small_square.png",
+        "NBA/Western Conference/Utah Jazz/utah-jazz_small_circle.png",
+        "NBA/Western Conference/Utah Jazz/utah-jazz_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NBA",
+      "group": "Eastern Conference",
+      "team": "Washington Wizards",
+      "slug": "washington-wizards",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+      "matched_as": "Washington Wizards",
+      "match_score": 1.0,
+      "files": [
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_big_square.png",
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_big_circle.png",
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_big_circle_badge.png",
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_small_square.png",
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_small_circle.png",
+        "NBA/Eastern Conference/Washington Wizards/washington-wizards_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Arizona Diamondbacks",
+      "slug": "arizona-diamondbacks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/ari.png",
+      "matched_as": "Arizona Diamondbacks",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_big_square.png",
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_big_circle.png",
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_big_circle_badge.png",
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_small_square.png",
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_small_circle.png",
+        "MLB/National League/Arizona Diamondbacks/arizona-diamondbacks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Athletics",
+      "slug": "athletics",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/ath.png",
+      "matched_as": "Athletics",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Athletics/athletics_big_square.png",
+        "MLB/American League/Athletics/athletics_big_circle.png",
+        "MLB/American League/Athletics/athletics_big_circle_badge.png",
+        "MLB/American League/Athletics/athletics_small_square.png",
+        "MLB/American League/Athletics/athletics_small_circle.png",
+        "MLB/American League/Athletics/athletics_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Atlanta Braves",
+      "slug": "atlanta-braves",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
+      "matched_as": "Atlanta Braves",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Atlanta Braves/atlanta-braves_big_square.png",
+        "MLB/National League/Atlanta Braves/atlanta-braves_big_circle.png",
+        "MLB/National League/Atlanta Braves/atlanta-braves_big_circle_badge.png",
+        "MLB/National League/Atlanta Braves/atlanta-braves_small_square.png",
+        "MLB/National League/Atlanta Braves/atlanta-braves_small_circle.png",
+        "MLB/National League/Atlanta Braves/atlanta-braves_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Baltimore Orioles",
+      "slug": "baltimore-orioles",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/bal.png",
+      "matched_as": "Baltimore Orioles",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_big_square.png",
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_big_circle.png",
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_big_circle_badge.png",
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_small_square.png",
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_small_circle.png",
+        "MLB/American League/Baltimore Orioles/baltimore-orioles_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Boston Red Sox",
+      "slug": "boston-red-sox",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
+      "matched_as": "Boston Red Sox",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Boston Red Sox/boston-red-sox_big_square.png",
+        "MLB/American League/Boston Red Sox/boston-red-sox_big_circle.png",
+        "MLB/American League/Boston Red Sox/boston-red-sox_big_circle_badge.png",
+        "MLB/American League/Boston Red Sox/boston-red-sox_small_square.png",
+        "MLB/American League/Boston Red Sox/boston-red-sox_small_circle.png",
+        "MLB/American League/Boston Red Sox/boston-red-sox_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Chicago Cubs",
+      "slug": "chicago-cubs",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+      "matched_as": "Chicago Cubs",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Chicago Cubs/chicago-cubs_big_square.png",
+        "MLB/National League/Chicago Cubs/chicago-cubs_big_circle.png",
+        "MLB/National League/Chicago Cubs/chicago-cubs_big_circle_badge.png",
+        "MLB/National League/Chicago Cubs/chicago-cubs_small_square.png",
+        "MLB/National League/Chicago Cubs/chicago-cubs_small_circle.png",
+        "MLB/National League/Chicago Cubs/chicago-cubs_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Chicago White Sox",
+      "slug": "chicago-white-sox",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chw.png",
+      "matched_as": "Chicago White Sox",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Chicago White Sox/chicago-white-sox_big_square.png",
+        "MLB/American League/Chicago White Sox/chicago-white-sox_big_circle.png",
+        "MLB/American League/Chicago White Sox/chicago-white-sox_big_circle_badge.png",
+        "MLB/American League/Chicago White Sox/chicago-white-sox_small_square.png",
+        "MLB/American League/Chicago White Sox/chicago-white-sox_small_circle.png",
+        "MLB/American League/Chicago White Sox/chicago-white-sox_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Cincinnati Reds",
+      "slug": "cincinnati-reds",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
+      "matched_as": "Cincinnati Reds",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_big_square.png",
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_big_circle.png",
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_big_circle_badge.png",
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_small_square.png",
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_small_circle.png",
+        "MLB/National League/Cincinnati Reds/cincinnati-reds_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Cleveland Guardians",
+      "slug": "cleveland-guardians",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/cle.png",
+      "matched_as": "Cleveland Guardians",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_big_square.png",
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_big_circle.png",
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_big_circle_badge.png",
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_small_square.png",
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_small_circle.png",
+        "MLB/American League/Cleveland Guardians/cleveland-guardians_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Colorado Rockies",
+      "slug": "colorado-rockies",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/col.png",
+      "matched_as": "Colorado Rockies",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Colorado Rockies/colorado-rockies_big_square.png",
+        "MLB/National League/Colorado Rockies/colorado-rockies_big_circle.png",
+        "MLB/National League/Colorado Rockies/colorado-rockies_big_circle_badge.png",
+        "MLB/National League/Colorado Rockies/colorado-rockies_small_square.png",
+        "MLB/National League/Colorado Rockies/colorado-rockies_small_circle.png",
+        "MLB/National League/Colorado Rockies/colorado-rockies_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Detroit Tigers",
+      "slug": "detroit-tigers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/det.png",
+      "matched_as": "Detroit Tigers",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Detroit Tigers/detroit-tigers_big_square.png",
+        "MLB/American League/Detroit Tigers/detroit-tigers_big_circle.png",
+        "MLB/American League/Detroit Tigers/detroit-tigers_big_circle_badge.png",
+        "MLB/American League/Detroit Tigers/detroit-tigers_small_square.png",
+        "MLB/American League/Detroit Tigers/detroit-tigers_small_circle.png",
+        "MLB/American League/Detroit Tigers/detroit-tigers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Houston Astros",
+      "slug": "houston-astros",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/hou.png",
+      "matched_as": "Houston Astros",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Houston Astros/houston-astros_big_square.png",
+        "MLB/American League/Houston Astros/houston-astros_big_circle.png",
+        "MLB/American League/Houston Astros/houston-astros_big_circle_badge.png",
+        "MLB/American League/Houston Astros/houston-astros_small_square.png",
+        "MLB/American League/Houston Astros/houston-astros_small_circle.png",
+        "MLB/American League/Houston Astros/houston-astros_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Kansas City Royals",
+      "slug": "kansas-city-royals",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/kc.png",
+      "matched_as": "Kansas City Royals",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Kansas City Royals/kansas-city-royals_big_square.png",
+        "MLB/American League/Kansas City Royals/kansas-city-royals_big_circle.png",
+        "MLB/American League/Kansas City Royals/kansas-city-royals_big_circle_badge.png",
+        "MLB/American League/Kansas City Royals/kansas-city-royals_small_square.png",
+        "MLB/American League/Kansas City Royals/kansas-city-royals_small_circle.png",
+        "MLB/American League/Kansas City Royals/kansas-city-royals_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Los Angeles Angels",
+      "slug": "los-angeles-angels",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/laa.png",
+      "matched_as": "Los Angeles Angels",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_big_square.png",
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_big_circle.png",
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_big_circle_badge.png",
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_small_square.png",
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_small_circle.png",
+        "MLB/American League/Los Angeles Angels/los-angeles-angels_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Los Angeles Dodgers",
+      "slug": "los-angeles-dodgers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/lad.png",
+      "matched_as": "Los Angeles Dodgers",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_big_square.png",
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_big_circle.png",
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_big_circle_badge.png",
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_small_square.png",
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_small_circle.png",
+        "MLB/National League/Los Angeles Dodgers/los-angeles-dodgers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Miami Marlins",
+      "slug": "miami-marlins",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
+      "matched_as": "Miami Marlins",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Miami Marlins/miami-marlins_big_square.png",
+        "MLB/National League/Miami Marlins/miami-marlins_big_circle.png",
+        "MLB/National League/Miami Marlins/miami-marlins_big_circle_badge.png",
+        "MLB/National League/Miami Marlins/miami-marlins_small_square.png",
+        "MLB/National League/Miami Marlins/miami-marlins_small_circle.png",
+        "MLB/National League/Miami Marlins/miami-marlins_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Milwaukee Brewers",
+      "slug": "milwaukee-brewers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/mil.png",
+      "matched_as": "Milwaukee Brewers",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_big_square.png",
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_big_circle.png",
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_big_circle_badge.png",
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_small_square.png",
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_small_circle.png",
+        "MLB/National League/Milwaukee Brewers/milwaukee-brewers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Minnesota Twins",
+      "slug": "minnesota-twins",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/min.png",
+      "matched_as": "Minnesota Twins",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Minnesota Twins/minnesota-twins_big_square.png",
+        "MLB/American League/Minnesota Twins/minnesota-twins_big_circle.png",
+        "MLB/American League/Minnesota Twins/minnesota-twins_big_circle_badge.png",
+        "MLB/American League/Minnesota Twins/minnesota-twins_small_square.png",
+        "MLB/American League/Minnesota Twins/minnesota-twins_small_circle.png",
+        "MLB/American League/Minnesota Twins/minnesota-twins_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "New York Mets",
+      "slug": "new-york-mets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/nym.png",
+      "matched_as": "New York Mets",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/New York Mets/new-york-mets_big_square.png",
+        "MLB/National League/New York Mets/new-york-mets_big_circle.png",
+        "MLB/National League/New York Mets/new-york-mets_big_circle_badge.png",
+        "MLB/National League/New York Mets/new-york-mets_small_square.png",
+        "MLB/National League/New York Mets/new-york-mets_small_circle.png",
+        "MLB/National League/New York Mets/new-york-mets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "New York Yankees",
+      "slug": "new-york-yankees",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
+      "matched_as": "New York Yankees",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/New York Yankees/new-york-yankees_big_square.png",
+        "MLB/American League/New York Yankees/new-york-yankees_big_circle.png",
+        "MLB/American League/New York Yankees/new-york-yankees_big_circle_badge.png",
+        "MLB/American League/New York Yankees/new-york-yankees_small_square.png",
+        "MLB/American League/New York Yankees/new-york-yankees_small_circle.png",
+        "MLB/American League/New York Yankees/new-york-yankees_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Philadelphia Phillies",
+      "slug": "philadelphia-phillies",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/phi.png",
+      "matched_as": "Philadelphia Phillies",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_big_square.png",
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_big_circle.png",
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_big_circle_badge.png",
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_small_square.png",
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_small_circle.png",
+        "MLB/National League/Philadelphia Phillies/philadelphia-phillies_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Pittsburgh Pirates",
+      "slug": "pittsburgh-pirates",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/pit.png",
+      "matched_as": "Pittsburgh Pirates",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_big_square.png",
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_big_circle.png",
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_big_circle_badge.png",
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_small_square.png",
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_small_circle.png",
+        "MLB/National League/Pittsburgh Pirates/pittsburgh-pirates_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "San Diego Padres",
+      "slug": "san-diego-padres",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",
+      "matched_as": "San Diego Padres",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/San Diego Padres/san-diego-padres_big_square.png",
+        "MLB/National League/San Diego Padres/san-diego-padres_big_circle.png",
+        "MLB/National League/San Diego Padres/san-diego-padres_big_circle_badge.png",
+        "MLB/National League/San Diego Padres/san-diego-padres_small_square.png",
+        "MLB/National League/San Diego Padres/san-diego-padres_small_circle.png",
+        "MLB/National League/San Diego Padres/san-diego-padres_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "San Francisco Giants",
+      "slug": "san-francisco-giants",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/sf.png",
+      "matched_as": "San Francisco Giants",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/San Francisco Giants/san-francisco-giants_big_square.png",
+        "MLB/National League/San Francisco Giants/san-francisco-giants_big_circle.png",
+        "MLB/National League/San Francisco Giants/san-francisco-giants_big_circle_badge.png",
+        "MLB/National League/San Francisco Giants/san-francisco-giants_small_square.png",
+        "MLB/National League/San Francisco Giants/san-francisco-giants_small_circle.png",
+        "MLB/National League/San Francisco Giants/san-francisco-giants_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Seattle Mariners",
+      "slug": "seattle-mariners",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/sea.png",
+      "matched_as": "Seattle Mariners",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Seattle Mariners/seattle-mariners_big_square.png",
+        "MLB/American League/Seattle Mariners/seattle-mariners_big_circle.png",
+        "MLB/American League/Seattle Mariners/seattle-mariners_big_circle_badge.png",
+        "MLB/American League/Seattle Mariners/seattle-mariners_small_square.png",
+        "MLB/American League/Seattle Mariners/seattle-mariners_small_circle.png",
+        "MLB/American League/Seattle Mariners/seattle-mariners_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "St. Louis Cardinals",
+      "slug": "st-louis-cardinals",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/stl.png",
+      "matched_as": "St. Louis Cardinals",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_big_square.png",
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_big_circle.png",
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_big_circle_badge.png",
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_small_square.png",
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_small_circle.png",
+        "MLB/National League/St. Louis Cardinals/st-louis-cardinals_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Tampa Bay Rays",
+      "slug": "tampa-bay-rays",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/tb.png",
+      "matched_as": "Tampa Bay Rays",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_big_square.png",
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_big_circle.png",
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_big_circle_badge.png",
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_small_square.png",
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_small_circle.png",
+        "MLB/American League/Tampa Bay Rays/tampa-bay-rays_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Texas Rangers",
+      "slug": "texas-rangers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",
+      "matched_as": "Texas Rangers",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Texas Rangers/texas-rangers_big_square.png",
+        "MLB/American League/Texas Rangers/texas-rangers_big_circle.png",
+        "MLB/American League/Texas Rangers/texas-rangers_big_circle_badge.png",
+        "MLB/American League/Texas Rangers/texas-rangers_small_square.png",
+        "MLB/American League/Texas Rangers/texas-rangers_small_circle.png",
+        "MLB/American League/Texas Rangers/texas-rangers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "American League",
+      "team": "Toronto Blue Jays",
+      "slug": "toronto-blue-jays",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/tor.png",
+      "matched_as": "Toronto Blue Jays",
+      "match_score": 1.0,
+      "files": [
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_big_square.png",
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_big_circle.png",
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_big_circle_badge.png",
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_small_square.png",
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_small_circle.png",
+        "MLB/American League/Toronto Blue Jays/toronto-blue-jays_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MLB",
+      "group": "National League",
+      "team": "Washington Nationals",
+      "slug": "washington-nationals",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/wsh.png",
+      "matched_as": "Washington Nationals",
+      "match_score": 1.0,
+      "files": [
+        "MLB/National League/Washington Nationals/washington-nationals_big_square.png",
+        "MLB/National League/Washington Nationals/washington-nationals_big_circle.png",
+        "MLB/National League/Washington Nationals/washington-nationals_big_circle_badge.png",
+        "MLB/National League/Washington Nationals/washington-nationals_small_square.png",
+        "MLB/National League/Washington Nationals/washington-nationals_small_circle.png",
+        "MLB/National League/Washington Nationals/washington-nationals_small_circle_badge.png"
+      ]
+    }
+  ]
+}
