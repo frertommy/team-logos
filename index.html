@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team Logos · MSI2026 · MLB · NBA</title>
+<style>
+  :root{
+    --bg:#0d1017; --panel:#161b25; --panel2:#1d2430; --line:#2a3340;
+    --text:#e8edf4; --muted:#93a0b4; --accent:#4f8cff;
+    --msi:#22c55e; --mlb:#ef4444; --nba:#3b82f6;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; line-height:1.45}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+  header{position:sticky;top:0;z-index:20;background:rgba(13,16,23,.86);
+    backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;gap:16px;padding:14px 0;flex-wrap:wrap}
+  .brand{display:flex;align-items:baseline;gap:10px;cursor:pointer}
+  .brand b{font-size:19px;letter-spacing:.2px}
+  .brand span{color:var(--muted);font-size:12.5px}
+  .grow{flex:1}
+  .search{position:relative}
+  .search input{background:var(--panel2);border:1px solid var(--line);color:var(--text);
+    border-radius:10px;padding:9px 12px 9px 32px;width:240px;font-size:14px;outline:none}
+  .search input:focus{border-color:var(--accent)}
+  .search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);opacity:.55}
+  .bgtoggle{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .bgtoggle button{background:var(--panel2);border:0;color:var(--muted);padding:8px 11px;
+    cursor:pointer;font-size:12px;border-left:1px solid var(--line)}
+  .bgtoggle button:first-child{border-left:0}
+  .bgtoggle button.on{background:var(--accent);color:#fff}
+
+  .crumbs{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13.5px;
+    padding:16px 0 4px}
+  .crumbs a{color:var(--muted)} .crumbs a:hover{color:var(--text)}
+  .crumbs .sep{opacity:.5}
+
+  h1.page{font-size:24px;margin:10px 0 2px}
+  .lead{color:var(--muted);margin:0 0 18px;font-size:14px}
+
+  .grid{display:grid;gap:16px;padding:8px 0 40px}
+  .grid.comp{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+  .grid.group{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+  .grid.team{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .grid.variant{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;cursor:pointer;transition:transform .12s ease,border-color .12s ease}
+  .card:hover{transform:translateY(-3px);border-color:#3a4658}
+  .card .thumb{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;padding:16px}
+  .card img{max-width:100%;max-height:100%;display:block}
+  .card .label{padding:10px 12px;border-top:1px solid var(--line);font-size:13.5px;font-weight:600;
+    display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .card .label small{color:var(--muted);font-weight:500;font-size:11.5px;white-space:nowrap}
+
+  .biglink{display:flex;align-items:center;gap:14px;padding:18px}
+  .pill{font-size:11px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;color:#fff}
+  .dot{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:17px;color:#fff;flex:none}
+
+  /* transparency backdrops */
+  .thumb,.vthumb{--c1:#f3f4f8;--c2:#e3e6ee}
+  body.bg-checker .thumb,body.bg-checker .vthumb{
+    background:conic-gradient(var(--c1) 25%,var(--c2) 0 50%,var(--c1) 0 75%,var(--c2) 0);
+    background-size:18px 18px;background-position:0 0}
+  body.bg-light .thumb,body.bg-light .vthumb{background:#ffffff}
+  body.bg-dark .thumb,body.bg-dark .vthumb{background:#10141c}
+
+  .detail-head{display:flex;align-items:center;gap:16px;margin:6px 0 8px}
+  .detail-head .dot{width:54px;height:54px;border-radius:14px;font-size:20px}
+  .detail-head h1{font-size:26px;margin:0}
+  .src{color:var(--muted);font-size:13px;margin:4px 0 22px}
+  .src a{color:var(--accent)}
+
+  .vcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .vthumb{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;padding:22px}
+  .vthumb img{max-width:100%;max-height:100%}
+  .vmeta{padding:11px 13px;border-top:1px solid var(--line)}
+  .vmeta .vt{font-weight:600;font-size:13.5px;display:flex;justify-content:space-between}
+  .vmeta .vt small{color:var(--muted);font-weight:500}
+  .vactions{display:flex;gap:8px;margin-top:9px}
+  .btn{flex:1;text-align:center;background:var(--panel2);border:1px solid var(--line);color:var(--text);
+    border-radius:9px;padding:7px;font-size:12.5px;cursor:pointer}
+  .btn:hover{border-color:var(--accent)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  .empty{color:var(--muted);padding:60px 0;text-align:center}
+  footer{border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;padding:22px 0 40px}
+  footer a{color:var(--accent)}
+  .count{color:var(--muted);font-weight:500;font-size:13px}
+</style>
+</head>
+<body class="bg-checker">
+<header>
+  <div class="wrap bar">
+    <div class="brand" onclick="location.hash='#/'">
+      <b>Team Logos</b><span id="brandsub">loading…</span>
+    </div>
+    <div class="grow"></div>
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search 160 teams…" autocomplete="off">
+    </label>
+    <div class="bgtoggle" title="Preview background">
+      <button data-bg="checker" class="on">▦ Checker</button>
+      <button data-bg="light">☀ Light</button>
+      <button data-bg="dark">☾ Dark</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="crumbs" class="crumbs"></div>
+  <div id="app"><div class="empty">Loading logos…</div></div>
+</main>
+
+<footer class="wrap">
+  Logos are the current official crests of their respective clubs/franchises (trademarks of their owners),
+  sourced from the ESPN public API for team identification. Generated by
+  <code>scripts/build_logos.py</code> · indexed via <a href="manifest.json">manifest.json</a>.
+</footer>
+
+<script>
+const COMP = {
+  MSI2026:{label:"MSI2026", note:"Soccer · 9 leagues", color:"var(--msi)", abbr:"⚽"},
+  MLB:{label:"MLB", note:"Baseball", color:"var(--mlb)", abbr:"⚾"},
+  NBA:{label:"NBA", note:"Basketball", color:"var(--nba)", abbr:"🏀"},
+};
+const COMP_ORDER=["MSI2026","MLB","NBA"];
+const VARIANTS=[
+  ["big_square","Big · Square","512px · transparent"],
+  ["big_circle","Big · Circle","512px · transparent inset"],
+  ["big_circle_badge","Big · Circle badge","512px · white disc"],
+  ["small_square","Small · Square","128px · transparent"],
+  ["small_circle","Small · Circle","128px · transparent inset"],
+  ["small_circle_badge","Small · Circle badge","128px · white disc"],
+];
+let DATA=null, TEAMS=[], COMPS=[];
+
+const enc = p => p.split('/').map(encodeURIComponent).join('/');
+const deburr = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const variantPath = (t,key) => t.files.find(f=>f.endsWith('_'+key+'.png'));
+const esc = s => s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function build(){
+  TEAMS = DATA.teams.map((t,i)=>({...t, _i:i, _norm:deburr(t.team+' '+t.group+' '+t.competition)}));
+  const byComp={};
+  for(const t of TEAMS){ (byComp[t.competition] ||= {}); (byComp[t.competition][t.group] ||= []).push(t); }
+  COMPS = COMP_ORDER.filter(c=>byComp[c]).map(c=>({
+    name:c,
+    groups:Object.keys(byComp[c]).sort().map(g=>({name:g, teams:byComp[c][g].sort((a,b)=>a.team.localeCompare(b.team))}))
+  }));
+  document.getElementById('brandsub').textContent = TEAMS.length+' teams · '+(TEAMS.length*6)+' logos';
+}
+
+function dot(comp,cls=''){const c=COMP[comp];return `<div class="dot ${cls}" style="background:${c.color}">${c.abbr}</div>`;}
+function crumb(items){
+  document.getElementById('crumbs').innerHTML = items.map((it,i)=>
+    (i?'<span class="sep">›</span>':'') + (it.href?`<a href="${it.href}">${esc(it.label)}</a>`:`<span>${esc(it.label)}</span>`)
+  ).join(' ');
+}
+function thumbImg(t){
+  const p = variantPath(t,'small_square') || t.files[0];
+  return `<img loading="lazy" src="${enc(p)}" alt="${esc(t.team)}">`;
+}
+
+function viewHome(){
+  crumb([{label:'All competitions'}]);
+  let h = `<h1 class="page">Browse logos</h1><p class="lead">Pick a competition, or search any of the ${TEAMS.length} teams above.</p>`;
+  h += `<div class="grid comp">`;
+  for(const c of COMPS){
+    const n = c.groups.reduce((s,g)=>s+g.teams.length,0);
+    h += `<a class="card" href="#/c/${COMP_ORDER.indexOf(c.name)}"><div class="biglink">
+      ${dot(c.name)}
+      <div><div style="font-size:18px;font-weight:700">${COMP[c.name].label}</div>
+      <div class="count">${COMP[c.name].note} · ${n} teams · ${c.groups.length} group${c.groups.length>1?'s':''}</div></div>
+    </div></a>`;
+  }
+  h += `</div>`;
+  document.getElementById('app').innerHTML = h;
+}
+
+function viewComp(ci){
+  const c=COMPS[ci]; if(!c) return viewHome();
+  crumb([{label:'All',href:'#/'},{label:COMP[c.name].label}]);
+  let h=`<div class="detail-head">${dot(c.name)}<div><h1>${COMP[c.name].label}</h1>
+    <div class="count">${COMP[c.name].note}</div></div></div>`;
+  h+=`<div class="grid group">`;
+  c.groups.forEach((g,gi)=>{
+    const cover = g.teams[0];
+    h+=`<a class="card" href="#/c/${ci}/${gi}">
+      <div class="thumb">${thumbImg(cover)}</div>
+      <div class="label">${esc(g.name)}<small>${g.teams.length} teams</small></div></a>`;
+  });
+  h+=`</div>`;
+  document.getElementById('app').innerHTML=h;
+}
+
+function teamCard(t){
+  return `<a class="card" href="#/t/${t._i}">
+    <div class="thumb">${thumbImg(t)}</div>
+    <div class="label">${esc(t.team)}</div></a>`;
+}
+
+function viewGroup(ci,gi){
+  const c=COMPS[ci]; const g=c&&c.groups[gi]; if(!g) return viewHome();
+  crumb([{label:'All',href:'#/'},{label:COMP[c.name].label,href:`#/c/${ci}`},{label:g.name}]);
+  let h=`<h1 class="page">${esc(g.name)} <span class="count">· ${g.teams.length} teams</span></h1>
+    <p class="lead">${COMP[c.name].label}</p><div class="grid team">`;
+  h+=g.teams.map(teamCard).join('');
+  h+=`</div>`;
+  document.getElementById('app').innerHTML=h;
+}
+
+function viewTeam(i){
+  const t=TEAMS[i]; if(!t) return viewHome();
+  const ci=COMP_ORDER.indexOf(t.competition);
+  const gi=COMPS[ci].groups.findIndex(g=>g.name===t.group);
+  crumb([{label:'All',href:'#/'},{label:COMP[t.competition].label,href:`#/c/${ci}`},
+    {label:t.group,href:`#/c/${ci}/${gi}`},{label:t.team}]);
+  let h=`<div class="detail-head">${dot(t.competition)}<div>
+    <h1>${esc(t.team)}</h1><div class="count">${COMP[t.competition].label} · ${esc(t.group)}</div></div></div>`;
+  h+=`<div class="src">Source: ${esc(t.matched_as)} · <a href="${esc(t.source_logo)}" target="_blank" rel="noopener">original logo ↗</a></div>`;
+  h+=`<div class="grid variant">`;
+  for(const [key,title,meta] of VARIANTS){
+    const p=variantPath(t,key); if(!p) continue;
+    const u=enc(p), fname=p.split('/').pop();
+    h+=`<div class="vcard"><div class="vthumb"><img loading="lazy" src="${u}" alt="${esc(title)}"></div>
+      <div class="vmeta"><div class="vt">${title}<small>${meta.split(' · ')[0]}</small></div>
+      <div class="count" style="font-size:11.5px;margin-top:2px">${meta}</div>
+      <div class="vactions">
+        <a class="btn primary" href="${u}" download="${esc(fname)}">Download</a>
+        <a class="btn" href="${u}" target="_blank" rel="noopener">Open</a>
+      </div></div></div>`;
+  }
+  h+=`</div>`;
+  document.getElementById('app').innerHTML=h;
+}
+
+function viewSearch(qraw){
+  const q=deburr(qraw.trim());
+  crumb([{label:'All',href:'#/'},{label:`Search: “${qraw}”`}]);
+  const res = q? TEAMS.filter(t=>t._norm.includes(q)) : [];
+  let h=`<h1 class="page">Search <span class="count">· ${res.length} result${res.length===1?'':'s'}</span></h1>`;
+  if(!q){h+=`<p class="empty">Type a team, league, or competition.</p>`;}
+  else if(!res.length){h+=`<p class="empty">No teams match “${esc(qraw)}”.</p>`;}
+  else{h+=`<div class="grid team">`+res.map(t=>`<a class="card" href="#/t/${t._i}">
+      <div class="thumb">${thumbImg(t)}</div>
+      <div class="label">${esc(t.team)}<small>${COMP[t.competition].abbr}</small></div></a>`).join('')+`</div>`;}
+  document.getElementById('app').innerHTML=h;
+}
+
+function route(){
+  const parts=(location.hash.replace(/^#\/?/,'')||'').split('/').filter(Boolean);
+  const qbox=document.getElementById('q');
+  if(parts[0]==='q'){ const q=decodeURIComponent(parts.slice(1).join('/')); if(qbox.value!==q)qbox.value=q; return viewSearch(q); }
+  if(qbox.value && parts[0]!=='q'){} // leave box value; routes below
+  if(!parts.length) return viewHome();
+  if(parts[0]==='c' && parts.length===2) return viewComp(+parts[1]);
+  if(parts[0]==='c' && parts.length===3) return viewGroup(+parts[1],+parts[2]);
+  if(parts[0]==='t') return viewTeam(+parts[1]);
+  viewHome();
+}
+
+document.getElementById('q').addEventListener('input',e=>{
+  const v=e.target.value;
+  location.hash = v? '#/q/'+encodeURIComponent(v) : '#/';
+});
+document.querySelectorAll('.bgtoggle button').forEach(b=>b.addEventListener('click',()=>{
+  document.body.className='bg-'+b.dataset.bg;
+  document.querySelectorAll('.bgtoggle button').forEach(x=>x.classList.toggle('on',x===b));
+}));
+window.addEventListener('hashchange',route);
+
+fetch('manifest.json').then(r=>r.json()).then(d=>{DATA=d;build();route();})
+  .catch(e=>{document.getElementById('app').innerHTML=
+    `<div class="empty">Couldn't load <code>manifest.json</code>.<br>Serve this folder over HTTP (e.g. <code>python3 -m http.server</code>) or via GitHub Pages — opening the file directly won't work.</div>`;});
+</script>
+</body>
+</html>
