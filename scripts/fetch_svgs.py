@@ -58,6 +58,11 @@ TITLE_OVERRIDE = {
     "Bodo/Glimt": "FK Bodø/Glimt",
 }
 
+# Teams whose only freely-licensed SVG is a wide WORDMARK (not the crest/badge).
+# Verified by rendering + comparing to the trusted ESPN PNG (low shape-IoU, ar > 4).
+# A wordmark misrepresents these teams, so we skip the SVG and keep the PNG.
+BLOCK = {"Toronto Blue Jays", "Golden State Warriors", "AS Roma"}
+
 def strip_accents(s):
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
 def norm(s):
@@ -126,6 +131,9 @@ def wiki_pageimage(title):
         return None
 
 def resolve(team, comp):
+    if team in BLOCK:
+        return {"status": "blocked-wordmark", "label": team,
+                "desc": "only a free wordmark exists; keep PNG", "file": None}
     to = TITLE_OVERRIDE.get(team)
     if to:
         img = wiki_pageimage(to)

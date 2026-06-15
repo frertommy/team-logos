@@ -762,12 +762,8 @@
       "slug": "as-roma",
       "competition": "MSI2026",
       "group": "Serie A",
-      "svg": "MSI2026/Serie A/AS Roma/as-roma.svg",
-      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/AS_ROMA_Text_Logo_2020_-_2021_.svg",
-      "src": "commons-p154",
-      "wikidata": "Q2739",
-      "commons_file": "AS ROMA Text Logo 2020 - 2021 .svg",
-      "bytes": 8889
+      "svg": null,
+      "reason": "blocked-wordmark"
     },
     {
       "team": "Atalanta",
@@ -1038,12 +1034,8 @@
       "slug": "golden-state-warriors",
       "competition": "NBA",
       "group": "Western Conference",
-      "svg": "NBA/Western Conference/Golden State Warriors/golden-state-warriors.svg",
-      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden_State_Warriors_wordmark_logo.svg",
-      "src": "commons-p154",
-      "wikidata": "Q157376",
-      "commons_file": "Golden State Warriors wordmark logo.svg",
-      "bytes": 14440
+      "svg": null,
+      "reason": "blocked-wordmark"
     },
     {
       "team": "Houston Rockets",
@@ -1542,12 +1534,8 @@
       "slug": "toronto-blue-jays",
       "competition": "MLB",
       "group": "American League",
-      "svg": "MLB/American League/Toronto Blue Jays/toronto-blue-jays.svg",
-      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Toronto_Blue_Jays_wordmark_logo_wide_blue-red.svg",
-      "src": "commons-p154",
-      "wikidata": "Q650829",
-      "commons_file": "Toronto Blue Jays wordmark logo wide blue-red.svg",
-      "bytes": 12422
+      "svg": null,
+      "reason": "blocked-wordmark"
     },
     {
       "team": "Washington Nationals",
