@@ -18,10 +18,16 @@ Layout:
   MSI2026/<League>/<Team>/<6 files>
   MLB/<American League|National League>/<Team>/<6 files>
   NBA/<Eastern Conference|Western Conference>/<Team>/<6 files>
+  NFL/<AFC|NFC>/<Team>/<6 files>
 
 Usage:
   python3 scripts/build_logos.py report   # match all teams to logos, print confidence, download nothing
   python3 scripts/build_logos.py build     # download masters + generate all variants + manifest
+  python3 scripts/build_logos.py build NFL # build one competition, merge into manifest.json
+
+If a team folder contains an authentic <slug>.svg (see fetch_svgs.py), the PNG
+variants are generated from a 2048px render of it (needs cairosvg) instead of
+the CDN raster — unless its silhouette disagrees with the raster (wordmark guard).
 """
 import sys, os, re, json, time, io, unicodedata, urllib.request, urllib.error
 from difflib import SequenceMatcher
@@ -135,6 +141,27 @@ MLB_AL = {"Orioles","Red Sox","Yankees","Rays","Blue Jays","White Sox","Guardian
           "Tigers","Royals","Twins","Astros","Angels","Athletics","Mariners","Rangers"}
 MLB_NL = {"Braves","Marlins","Mets","Phillies","Nationals","Cubs","Reds","Brewers",
           "Pirates","Cardinals","Diamondbacks","Rockies","Dodgers","Padres","Giants"}
+NFL_AFC = {"Bills","Dolphins","Patriots","Jets","Ravens","Bengals","Browns","Steelers",
+           "Texans","Colts","Jaguars","Titans","Broncos","Chiefs","Raiders","Chargers"}
+NFL_NFC = {"Cowboys","Giants","Eagles","Commanders","Bears","Lions","Packers","Vikings",
+           "Falcons","Panthers","Saints","Buccaneers","Cardinals","Rams","49ers","Seahawks"}
+
+# NFL: ESPN's site.api feed is now 403-blocked, but the logo CDN is stable and
+# addressed by team abbreviation. All 32 pinned by hand (verified vs core API).
+NFL_LOGO_BY_ABBR = "https://a.espncdn.com/i/teamlogos/nfl/500/{}.png"
+NFL_TEAMS = [
+    ("Arizona Cardinals","ari"), ("Atlanta Falcons","atl"), ("Baltimore Ravens","bal"),
+    ("Buffalo Bills","buf"), ("Carolina Panthers","car"), ("Chicago Bears","chi"),
+    ("Cincinnati Bengals","cin"), ("Cleveland Browns","cle"), ("Dallas Cowboys","dal"),
+    ("Denver Broncos","den"), ("Detroit Lions","det"), ("Green Bay Packers","gb"),
+    ("Houston Texans","hou"), ("Indianapolis Colts","ind"), ("Jacksonville Jaguars","jax"),
+    ("Kansas City Chiefs","kc"), ("Las Vegas Raiders","lv"), ("Los Angeles Chargers","lac"),
+    ("Los Angeles Rams","lar"), ("Miami Dolphins","mia"), ("Minnesota Vikings","min"),
+    ("New England Patriots","ne"), ("New Orleans Saints","no"), ("New York Giants","nyg"),
+    ("New York Jets","nyj"), ("Philadelphia Eagles","phi"), ("Pittsburgh Steelers","pit"),
+    ("San Francisco 49ers","sf"), ("Seattle Seahawks","sea"), ("Tampa Bay Buccaneers","tb"),
+    ("Tennessee Titans","ten"), ("Washington Commanders","wsh"),
+]
 
 # ---------------------------------------------------------------- helpers
 STOP = {"fc","cf","afc","ac","as","sc","ssc","rc","cd","ud","ss","sv","vfb","vfl",
@@ -314,6 +341,47 @@ def download(url, dest):
     with open(dest, "wb") as out:
         out.write(data)
 
+def render_svg_master(svg_path, dest_png, height=2048):
+    """Render a local authentic SVG to a high-res PNG master (crisper than CDN rasters).
+    Requires cairosvg (pip install cairosvg); returns False if unavailable."""
+    try:
+        import cairosvg
+    except ImportError:
+        return False
+    try:
+        cairosvg.svg2png(url=svg_path, write_to=dest_png, output_height=height)
+        return True
+    except Exception as e:
+        print(f"    svg render failed ({os.path.basename(svg_path)}): {e}")
+        return False
+
+# Teams where the CDN itself serves a wide wordmark-style primary; the compact
+# SVG badge is the better master for square/circle avatar crops. Skips shape check.
+FORCE_SVG = {"new-york-jets"}
+
+def pick_master(master, out_dir, slug, sport_dir):
+    """Prefer a high-res render of the team's authentic SVG over the CDN raster,
+    but only when its silhouette matches the trusted raster (rejects wordmarks)."""
+    import math
+    svg_path = os.path.join(out_dir, slug + ".svg")
+    if not os.path.exists(svg_path):
+        return master, "cdn-png"
+    hi = os.path.join(MASTERS, sport_dir, slug + "_svg.png")
+    if not render_svg_master(svg_path, hi):
+        return master, "cdn-png"
+    if slug in FORCE_SVG:
+        return hi, "svg@2048"
+    try:
+        a_svg = autocrop(Image.open(hi)); a_png = autocrop(Image.open(master))
+        r_svg = a_svg.width / a_svg.height
+        r_png = a_png.width / a_png.height
+        if abs(math.log(r_svg / r_png)) > 0.35:
+            print(f"    svg shape mismatch for {slug} (ar {r_svg:.2f} vs {r_png:.2f}) — keeping CDN raster")
+            return master, "cdn-png"
+    except Exception:
+        return master, "cdn-png"
+    return hi, "svg@2048"
+
 def generate(master_path, out_dir, slug):
     os.makedirs(out_dir, exist_ok=True)
     logo = autocrop(Image.open(master_path))
@@ -326,13 +394,14 @@ def generate(master_path, out_dir, slug):
     return files
 
 # ---------------------------------------------------------------- drivers
-def collect_jobs():
-    """Return list of job dicts with everything needed to build (no downloads)."""
-    pool = build_soccer_pool()
+def collect_jobs(only=None):
+    """Return list of job dicts with everything needed to build (no downloads).
+    only='NFL' etc. skips the other competitions (and their now-blocked feeds)."""
     jobs, problems = [], []
+    pool = build_soccer_pool() if only in (None, "MSI2026") else []
 
     # MSI2026 soccer
-    for name, league in MSI:
+    for name, league in (MSI if only in (None, "MSI2026") else []):
         if name in DIRECT:
             jobs.append({"comp": "MSI2026", "group": league, "team": name,
                          "slug": slugify(name),
@@ -349,7 +418,7 @@ def collect_jobs():
                      "matched": e["name"], "score": round(s, 2), "how": how})
 
     # NBA
-    for t in espn_teams("basketball/nba"):
+    for t in (espn_teams("basketball/nba") if only in (None, "NBA") else []):
         team = t["team"]; nm = team.get("displayName",""); logo = pick_logo(team)
         nick = nm.split()[-1] if nm else ""
         two = " ".join(nm.split()[-2:])
@@ -359,7 +428,7 @@ def collect_jobs():
                      "logo":logo,"matched":nm,"score":1.0,"how":"feed"})
 
     # MLB
-    for t in espn_teams("baseball/mlb"):
+    for t in (espn_teams("baseball/mlb") if only in (None, "MLB") else []):
         team = t["team"]; nm = team.get("displayName",""); logo = pick_logo(team)
         nick = nm.split()[-1] if nm else ""
         two = " ".join(nm.split()[-2:])
@@ -367,6 +436,15 @@ def collect_jobs():
                else "National League" if (nick in MLB_NL or two in MLB_NL) else "MLB")
         jobs.append({"comp":"MLB","group":grp,"team":nm,"slug":slugify(nm),
                      "logo":logo,"matched":nm,"score":1.0,"how":"feed"})
+
+    # NFL — direct CDN pins (site.api feed is 403-blocked, see NFL_TEAMS)
+    for nm, abbr in (NFL_TEAMS if only in (None, "NFL") else []):
+        nick = nm.split()[-1]
+        grp = ("AFC" if nick in NFL_AFC
+               else "NFC" if nick in NFL_NFC else "NFL")
+        jobs.append({"comp":"NFL","group":grp,"team":nm,"slug":slugify(nm),
+                     "logo":NFL_LOGO_BY_ABBR.format(abbr),
+                     "matched":f"ESPN CDN {abbr}","score":1.0,"how":"direct-cdn"})
 
     return jobs, problems
 
@@ -376,7 +454,7 @@ def cmd_report():
     for j in jobs:
         by.setdefault(j["comp"], []).append(j)
     print("=== MATCH REPORT ===")
-    for comp in ("MSI2026","MLB","NBA"):
+    for comp in ("MSI2026","MLB","NBA","NFL"):
         js = by.get(comp, [])
         print(f"\n## {comp}: {len(js)} matched")
         for j in sorted(js, key=lambda x: x["score"]):
@@ -389,7 +467,14 @@ def cmd_report():
     print(f"\nTOTAL matched={total}  problems={len(problems)}")
 
 def cmd_build():
-    jobs, problems = collect_jobs()
+    # optional competition filter: `build NFL` builds only NFL and merges into manifest.json
+    only = sys.argv[2] if len(sys.argv) > 2 else None
+    jobs, problems = collect_jobs(only)
+    if only:
+        jobs = [j for j in jobs if j["comp"] == only]
+        problems = [] if only != "MSI2026" else problems
+        if not jobs:
+            print(f"No teams for competition {only!r}"); sys.exit(1)
     if problems:
         print("Refusing to build — unresolved matches:")
         for p in problems:
@@ -397,28 +482,34 @@ def cmd_build():
         sys.exit(1)
     manifest = []
     for i, j in enumerate(jobs, 1):
-        sport_dir = {"MSI2026":"soccer","NBA":"nba","MLB":"mlb"}[j["comp"]]
+        sport_dir = {"MSI2026":"soccer","NBA":"nba","MLB":"mlb","NFL":"nfl"}[j["comp"]]
         master = os.path.join(MASTERS, sport_dir, j["slug"] + ".png")
         try:
             download(j["logo"], master)
             out_dir = os.path.join(ROOT, j["comp"], folder_name(j["group"]), folder_name(j["team"]))
-            files = generate(master, out_dir, j["slug"])
+            use, master_kind = pick_master(master, out_dir, j["slug"], sport_dir)
+            files = generate(use, out_dir, j["slug"])
             manifest.append({"competition": j["comp"], "group": j["group"],
                              "team": j["team"], "slug": j["slug"],
-                             "source_logo": j["logo"], "matched_as": j["matched"],
+                             "source_logo": j["logo"], "master": master_kind,
+                             "matched_as": j["matched"],
                              "match_score": j["score"], "files": files})
-            print(f"[{i:3d}/{len(jobs)}] {j['comp']:8s} {j['team']}")
+            print(f"[{i:3d}/{len(jobs)}] {j['comp']:8s} {j['team']} ({master_kind})")
         except Exception as e:
             print(f"[{i:3d}/{len(jobs)}] FAILED {j['team']}: {e}")
             manifest.append({"competition": j["comp"], "team": j["team"], "error": str(e)})
         time.sleep(0.02)
-    with open(os.path.join(ROOT, "manifest.json"), "w") as f:
-        json.dump({"generated_from": "ESPN public sports API",
+    mpath = os.path.join(ROOT, "manifest.json")
+    if only and os.path.exists(mpath):
+        prev = json.load(open(mpath))
+        manifest = [t for t in prev["teams"] if t.get("competition") != only] + manifest
+    with open(mpath, "w") as f:
+        json.dump({"generated_from": "ESPN public sports API (+ authentic SVG masters where available)",
                    "variants": [v[0] for v in VARIANTS],
                    "sizes": {"big": BIG, "small": SMALL},
                    "teams": manifest}, f, indent=2, ensure_ascii=False)
     ok = sum(1 for m in manifest if "files" in m)
-    print(f"\nDONE: {ok}/{len(jobs)} teams, {ok*len(VARIANTS)} images. manifest.json written.")
+    print(f"\nDONE: {ok} teams in manifest, {len(jobs)} built this run. manifest.json written.")
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "report"

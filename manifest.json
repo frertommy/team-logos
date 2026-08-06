@@ -1,5 +1,5 @@
 {
-  "generated_from": "ESPN public sports API",
+  "generated_from": "ESPN public sports API (+ authentic SVG masters where available)",
   "variants": [
     "big_square",
     "big_circle",
@@ -2731,6 +2731,582 @@
         "MLB/National League/Washington Nationals/washington-nationals_small_square.png",
         "MLB/National League/Washington Nationals/washington-nationals_small_circle.png",
         "MLB/National League/Washington Nationals/washington-nationals_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Arizona Cardinals",
+      "slug": "arizona-cardinals",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN ari",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_big_square.png",
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_big_circle.png",
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_big_circle_badge.png",
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_small_square.png",
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_small_circle.png",
+        "NFL/NFC/Arizona Cardinals/arizona-cardinals_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Atlanta Falcons",
+      "slug": "atlanta-falcons",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN atl",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_big_square.png",
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_big_circle.png",
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_big_circle_badge.png",
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_small_square.png",
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_small_circle.png",
+        "NFL/NFC/Atlanta Falcons/atlanta-falcons_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Baltimore Ravens",
+      "slug": "baltimore-ravens",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN bal",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_big_square.png",
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_big_circle.png",
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_big_circle_badge.png",
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_small_square.png",
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_small_circle.png",
+        "NFL/AFC/Baltimore Ravens/baltimore-ravens_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Buffalo Bills",
+      "slug": "buffalo-bills",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN buf",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Buffalo Bills/buffalo-bills_big_square.png",
+        "NFL/AFC/Buffalo Bills/buffalo-bills_big_circle.png",
+        "NFL/AFC/Buffalo Bills/buffalo-bills_big_circle_badge.png",
+        "NFL/AFC/Buffalo Bills/buffalo-bills_small_square.png",
+        "NFL/AFC/Buffalo Bills/buffalo-bills_small_circle.png",
+        "NFL/AFC/Buffalo Bills/buffalo-bills_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Carolina Panthers",
+      "slug": "carolina-panthers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN car",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Carolina Panthers/carolina-panthers_big_square.png",
+        "NFL/NFC/Carolina Panthers/carolina-panthers_big_circle.png",
+        "NFL/NFC/Carolina Panthers/carolina-panthers_big_circle_badge.png",
+        "NFL/NFC/Carolina Panthers/carolina-panthers_small_square.png",
+        "NFL/NFC/Carolina Panthers/carolina-panthers_small_circle.png",
+        "NFL/NFC/Carolina Panthers/carolina-panthers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Chicago Bears",
+      "slug": "chicago-bears",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN chi",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Chicago Bears/chicago-bears_big_square.png",
+        "NFL/NFC/Chicago Bears/chicago-bears_big_circle.png",
+        "NFL/NFC/Chicago Bears/chicago-bears_big_circle_badge.png",
+        "NFL/NFC/Chicago Bears/chicago-bears_small_square.png",
+        "NFL/NFC/Chicago Bears/chicago-bears_small_circle.png",
+        "NFL/NFC/Chicago Bears/chicago-bears_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Cincinnati Bengals",
+      "slug": "cincinnati-bengals",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN cin",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_big_square.png",
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_big_circle.png",
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_big_circle_badge.png",
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_small_square.png",
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_small_circle.png",
+        "NFL/AFC/Cincinnati Bengals/cincinnati-bengals_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Cleveland Browns",
+      "slug": "cleveland-browns",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN cle",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Cleveland Browns/cleveland-browns_big_square.png",
+        "NFL/AFC/Cleveland Browns/cleveland-browns_big_circle.png",
+        "NFL/AFC/Cleveland Browns/cleveland-browns_big_circle_badge.png",
+        "NFL/AFC/Cleveland Browns/cleveland-browns_small_square.png",
+        "NFL/AFC/Cleveland Browns/cleveland-browns_small_circle.png",
+        "NFL/AFC/Cleveland Browns/cleveland-browns_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Dallas Cowboys",
+      "slug": "dallas-cowboys",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN dal",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_big_square.png",
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_big_circle.png",
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_big_circle_badge.png",
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_small_square.png",
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_small_circle.png",
+        "NFL/NFC/Dallas Cowboys/dallas-cowboys_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Denver Broncos",
+      "slug": "denver-broncos",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN den",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Denver Broncos/denver-broncos_big_square.png",
+        "NFL/AFC/Denver Broncos/denver-broncos_big_circle.png",
+        "NFL/AFC/Denver Broncos/denver-broncos_big_circle_badge.png",
+        "NFL/AFC/Denver Broncos/denver-broncos_small_square.png",
+        "NFL/AFC/Denver Broncos/denver-broncos_small_circle.png",
+        "NFL/AFC/Denver Broncos/denver-broncos_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Detroit Lions",
+      "slug": "detroit-lions",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN det",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Detroit Lions/detroit-lions_big_square.png",
+        "NFL/NFC/Detroit Lions/detroit-lions_big_circle.png",
+        "NFL/NFC/Detroit Lions/detroit-lions_big_circle_badge.png",
+        "NFL/NFC/Detroit Lions/detroit-lions_small_square.png",
+        "NFL/NFC/Detroit Lions/detroit-lions_small_circle.png",
+        "NFL/NFC/Detroit Lions/detroit-lions_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Green Bay Packers",
+      "slug": "green-bay-packers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN gb",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Green Bay Packers/green-bay-packers_big_square.png",
+        "NFL/NFC/Green Bay Packers/green-bay-packers_big_circle.png",
+        "NFL/NFC/Green Bay Packers/green-bay-packers_big_circle_badge.png",
+        "NFL/NFC/Green Bay Packers/green-bay-packers_small_square.png",
+        "NFL/NFC/Green Bay Packers/green-bay-packers_small_circle.png",
+        "NFL/NFC/Green Bay Packers/green-bay-packers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Houston Texans",
+      "slug": "houston-texans",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN hou",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Houston Texans/houston-texans_big_square.png",
+        "NFL/AFC/Houston Texans/houston-texans_big_circle.png",
+        "NFL/AFC/Houston Texans/houston-texans_big_circle_badge.png",
+        "NFL/AFC/Houston Texans/houston-texans_small_square.png",
+        "NFL/AFC/Houston Texans/houston-texans_small_circle.png",
+        "NFL/AFC/Houston Texans/houston-texans_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Indianapolis Colts",
+      "slug": "indianapolis-colts",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN ind",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_big_square.png",
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_big_circle.png",
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_big_circle_badge.png",
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_small_square.png",
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_small_circle.png",
+        "NFL/AFC/Indianapolis Colts/indianapolis-colts_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Jacksonville Jaguars",
+      "slug": "jacksonville-jaguars",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN jax",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_big_square.png",
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_big_circle.png",
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_big_circle_badge.png",
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_small_square.png",
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_small_circle.png",
+        "NFL/AFC/Jacksonville Jaguars/jacksonville-jaguars_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Kansas City Chiefs",
+      "slug": "kansas-city-chiefs",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN kc",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_big_square.png",
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_big_circle.png",
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_big_circle_badge.png",
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_small_square.png",
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_small_circle.png",
+        "NFL/AFC/Kansas City Chiefs/kansas-city-chiefs_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Las Vegas Raiders",
+      "slug": "las-vegas-raiders",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN lv",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_big_square.png",
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_big_circle.png",
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_big_circle_badge.png",
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_small_square.png",
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_small_circle.png",
+        "NFL/AFC/Las Vegas Raiders/las-vegas-raiders_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Los Angeles Chargers",
+      "slug": "los-angeles-chargers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN lac",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_big_square.png",
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_big_circle.png",
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_big_circle_badge.png",
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_small_square.png",
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_small_circle.png",
+        "NFL/AFC/Los Angeles Chargers/los-angeles-chargers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Los Angeles Rams",
+      "slug": "los-angeles-rams",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN lar",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_big_square.png",
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_big_circle.png",
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_big_circle_badge.png",
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_small_square.png",
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_small_circle.png",
+        "NFL/NFC/Los Angeles Rams/los-angeles-rams_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Miami Dolphins",
+      "slug": "miami-dolphins",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN mia",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Miami Dolphins/miami-dolphins_big_square.png",
+        "NFL/AFC/Miami Dolphins/miami-dolphins_big_circle.png",
+        "NFL/AFC/Miami Dolphins/miami-dolphins_big_circle_badge.png",
+        "NFL/AFC/Miami Dolphins/miami-dolphins_small_square.png",
+        "NFL/AFC/Miami Dolphins/miami-dolphins_small_circle.png",
+        "NFL/AFC/Miami Dolphins/miami-dolphins_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Minnesota Vikings",
+      "slug": "minnesota-vikings",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN min",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_big_square.png",
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_big_circle.png",
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_big_circle_badge.png",
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_small_square.png",
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_small_circle.png",
+        "NFL/NFC/Minnesota Vikings/minnesota-vikings_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "New England Patriots",
+      "slug": "new-england-patriots",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN ne",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/New England Patriots/new-england-patriots_big_square.png",
+        "NFL/AFC/New England Patriots/new-england-patriots_big_circle.png",
+        "NFL/AFC/New England Patriots/new-england-patriots_big_circle_badge.png",
+        "NFL/AFC/New England Patriots/new-england-patriots_small_square.png",
+        "NFL/AFC/New England Patriots/new-england-patriots_small_circle.png",
+        "NFL/AFC/New England Patriots/new-england-patriots_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "New Orleans Saints",
+      "slug": "new-orleans-saints",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN no",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_big_square.png",
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_big_circle.png",
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_big_circle_badge.png",
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_small_square.png",
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_small_circle.png",
+        "NFL/NFC/New Orleans Saints/new-orleans-saints_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "New York Giants",
+      "slug": "new-york-giants",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN nyg",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/New York Giants/new-york-giants_big_square.png",
+        "NFL/NFC/New York Giants/new-york-giants_big_circle.png",
+        "NFL/NFC/New York Giants/new-york-giants_big_circle_badge.png",
+        "NFL/NFC/New York Giants/new-york-giants_small_square.png",
+        "NFL/NFC/New York Giants/new-york-giants_small_circle.png",
+        "NFL/NFC/New York Giants/new-york-giants_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "New York Jets",
+      "slug": "new-york-jets",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN nyj",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/New York Jets/new-york-jets_big_square.png",
+        "NFL/AFC/New York Jets/new-york-jets_big_circle.png",
+        "NFL/AFC/New York Jets/new-york-jets_big_circle_badge.png",
+        "NFL/AFC/New York Jets/new-york-jets_small_square.png",
+        "NFL/AFC/New York Jets/new-york-jets_small_circle.png",
+        "NFL/AFC/New York Jets/new-york-jets_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Philadelphia Eagles",
+      "slug": "philadelphia-eagles",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN phi",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_big_square.png",
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_big_circle.png",
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_big_circle_badge.png",
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_small_square.png",
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_small_circle.png",
+        "NFL/NFC/Philadelphia Eagles/philadelphia-eagles_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Pittsburgh Steelers",
+      "slug": "pittsburgh-steelers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN pit",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_big_square.png",
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_big_circle.png",
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_big_circle_badge.png",
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_small_square.png",
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_small_circle.png",
+        "NFL/AFC/Pittsburgh Steelers/pittsburgh-steelers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "San Francisco 49ers",
+      "slug": "san-francisco-49ers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN sf",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_big_square.png",
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_big_circle.png",
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_big_circle_badge.png",
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_small_square.png",
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_small_circle.png",
+        "NFL/NFC/San Francisco 49ers/san-francisco-49ers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Seattle Seahawks",
+      "slug": "seattle-seahawks",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN sea",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_big_square.png",
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_big_circle.png",
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_big_circle_badge.png",
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_small_square.png",
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_small_circle.png",
+        "NFL/NFC/Seattle Seahawks/seattle-seahawks_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Tampa Bay Buccaneers",
+      "slug": "tampa-bay-buccaneers",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN tb",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_big_square.png",
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_big_circle.png",
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_big_circle_badge.png",
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_small_square.png",
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_small_circle.png",
+        "NFL/NFC/Tampa Bay Buccaneers/tampa-bay-buccaneers_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "AFC",
+      "team": "Tennessee Titans",
+      "slug": "tennessee-titans",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN ten",
+      "match_score": 1.0,
+      "files": [
+        "NFL/AFC/Tennessee Titans/tennessee-titans_big_square.png",
+        "NFL/AFC/Tennessee Titans/tennessee-titans_big_circle.png",
+        "NFL/AFC/Tennessee Titans/tennessee-titans_big_circle_badge.png",
+        "NFL/AFC/Tennessee Titans/tennessee-titans_small_square.png",
+        "NFL/AFC/Tennessee Titans/tennessee-titans_small_circle.png",
+        "NFL/AFC/Tennessee Titans/tennessee-titans_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "NFL",
+      "group": "NFC",
+      "team": "Washington Commanders",
+      "slug": "washington-commanders",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "master": "svg@2048",
+      "matched_as": "ESPN CDN wsh",
+      "match_score": 1.0,
+      "files": [
+        "NFL/NFC/Washington Commanders/washington-commanders_big_square.png",
+        "NFL/NFC/Washington Commanders/washington-commanders_big_circle.png",
+        "NFL/NFC/Washington Commanders/washington-commanders_big_circle_badge.png",
+        "NFL/NFC/Washington Commanders/washington-commanders_small_square.png",
+        "NFL/NFC/Washington Commanders/washington-commanders_small_circle.png",
+        "NFL/NFC/Washington Commanders/washington-commanders_small_circle_badge.png"
       ]
     }
   ]

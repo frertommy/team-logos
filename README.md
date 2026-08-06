@@ -1,14 +1,15 @@
 # team-logos
 
-Standardized logo assets for every team across **three competitions** — **160 teams, 960 images**.
+Standardized logo assets for every team across **four competitions** — **192 teams, 1,152 images**.
 
 | Competition | Teams | What it is |
 |---|---|---|
 | **MSI2026** | 100 | Soccer clubs across 9 leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Liga Portugal, + Galatasaray & Bodø/Glimt). Mirrors the canonical `teams` table. |
 | **MLB** | 30 | Major League Baseball |
+| **NFL** | 32 | National Football League |
 | **NBA** | 30 | National Basketball Association |
 
-Every logo is the **current official crest** (latest as of the 2026-06-15 build), sourced as a transparent PNG. **67 of the 160 teams** additionally include an authentic **vector `.svg`** (see [Vector logos](#vector-svg-logos)).
+Every logo is the **current official crest** (latest as of the 2026-06-15 build), sourced as a transparent PNG. NFL (added 2026-08-06) goes one step further: all 32 PNG sets are rasterized from the authentic vector crest at 2048px, then downscaled — noticeably crisper than CDN rasters. **99 of the 192 teams** additionally include an authentic **vector `.svg`** (see [Vector logos](#vector-svg-logos)).
 
 ---
 
@@ -22,6 +23,8 @@ team-logos/
 │   └── <American League|National League>/<Team>/
 ├── NBA/
 │   └── <Eastern Conference|Western Conference>/<Team>/
+├── NFL/
+│   └── <AFC|NFC>/<Team>/                e.g. NFL/NFC/Dallas Cowboys/
 ├── manifest.json                   machine-readable index of every team + file + source
 └── scripts/build_logos.py          reproducible fetch + generate pipeline
 ```
@@ -55,7 +58,7 @@ One entry per team with its competition, group (league/conference), the source l
 
 ## Vector (SVG) logos
 
-In addition to the PNGs, **67 of the 160 teams** also ship an authentic vector **`.svg`** (MSI2026 35 · MLB 27 · NBA 5), placed next to the PNGs as `<slug>.svg` and indexed in `svg_manifest.json`.
+In addition to the PNGs, **99 of the 192 teams** also ship an authentic vector **`.svg`** (MSI2026 35 · MLB 27 · NBA 5 · NFL 32), placed next to the PNGs as `<slug>.svg` and indexed in `svg_manifest.json`.
 
 - These are **real vector files — never auto-traced** from the PNGs. Sources: the current English-Wikipedia infobox crest (55) and Wikimedia Commons `P154` (12).
 - The remaining **93 teams have no freely-licensed SVG**: their current crests are copyrighted and exist only as raster / fair-use files (this is most of the marquee clubs — Arsenal, Real Madrid, Liverpool, Man Utd/City — and most NBA franchises). The 512px PNG is the asset for those.

@@ -25,7 +25,8 @@ COMMONS = "https://commons.wikimedia.org/w/api.php"
 FILEPATH = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 UA = {"User-Agent": "rivalz-logo-fetch/1.0 (team logo gallery; contact ceo@rivalz.ai)"}
 
-KEYWORDS = {"MSI2026": ("football", "soccer"), "NBA": ("basketball",), "MLB": ("baseball",)}
+KEYWORDS = {"MSI2026": ("football", "soccer"), "NBA": ("basketball",), "MLB": ("baseball",),
+            "NFL": ("american football", "football")}
 
 # Better search strings for ambiguous / short names (disambiguates the Wikidata hit).
 QUERY_ALIAS = {
@@ -56,6 +57,33 @@ TITLE_OVERRIDE = {
     "Metz": "FC Metz",
     "Nantes": "FC Nantes",
     "Bodo/Glimt": "FK Bodø/Glimt",
+}
+
+# Crests absent from Commons/Wikidata P154 but hosted on English Wikipedia as
+# fair-use vector files. Pinned by exact enwiki file name (verified by hand).
+ENWIKI_FILEPATH = "https://en.wikipedia.org/wiki/Special:FilePath/"
+ENWIKI_FILE = {
+    "Atlanta Falcons": "Atlanta Falcons logo.svg",
+    "Denver Broncos": "Denver Broncos logo.svg",
+    "Los Angeles Rams": "LA Rams logo.svg",
+    "Miami Dolphins": "Miami Dolphins logo.svg",
+    "Minnesota Vikings": "Minnesota Vikings logo.svg",
+    "New England Patriots": "New England Patriots logo.svg",
+    "Philadelphia Eagles": "Philadelphia Eagles logo.svg",
+    # articles whose infobox pageimage is the wordmark — pin the crest file
+    "Cleveland Browns": "Cleveland Browns logo.svg",
+    "Detroit Lions": "Detroit Lions logo.svg",
+    "Houston Texans": "Houston Texans logo.svg",
+    "Jacksonville Jaguars": "Jacksonville Jaguars logo.svg",
+    "Las Vegas Raiders": "Las Vegas Raiders logo.svg",
+    "Seattle Seahawks": "Seattle Seahawks logo.svg",
+    "Tampa Bay Buccaneers": "Tampa Bay Buccaneers logo.svg",
+    "Tennessee Titans": "Tennessee Titans Logo 2026.svg",
+    "New York Jets": "New York Jets logo.svg",
+    "Arizona Cardinals": "Arizona Cardinals logo.svg",
+    "Baltimore Ravens": "Baltimore Ravens logo.svg",
+    "Chicago Bears": "Chicago Bears logo primary.svg",
+    "Carolina Panthers": "Carolina Panthers logo.svg",
 }
 
 # Teams whose only freely-licensed SVG is a wide WORDMARK (not the crest/badge).
@@ -131,6 +159,11 @@ def wiki_pageimage(title):
         return None
 
 def resolve(team, comp):
+    ef = ENWIKI_FILE.get(team)
+    if ef:
+        return {"status": "svg", "src": "enwiki-file-pin",
+                "url": ENWIKI_FILEPATH + urllib.parse.quote(ef.replace(" ", "_")),
+                "file": ef, "qid": None, "label": team, "desc": "(enwiki file pin)"}
     if team in BLOCK:
         return {"status": "blocked-wordmark", "label": team,
                 "desc": "only a free wordmark exists; keep PNG", "file": None}
@@ -182,7 +215,9 @@ def file_url(fname):
     return FILEPATH + urllib.parse.quote(fname.replace(" ", "_"))
 
 def cmd_report():
+    only = sys.argv[2] if len(sys.argv) > 2 else None
     teams = load_teams()
+    if only: teams = [t for t in teams if t["comp"] == only]
     rows = []
     for i, t in enumerate(teams, 1):
         r = resolve(t["name"], t["comp"])
@@ -192,7 +227,7 @@ def cmd_report():
     by = {}
     for t, r in rows: by.setdefault(t["comp"], []).append((t, r))
     found = 0
-    for comp in ("MSI2026", "MLB", "NBA"):
+    for comp in ("MSI2026", "MLB", "NBA", "NFL"):
         lst = by.get(comp, [])
         svg = [x for x in lst if x[1]["status"] == "svg"]
         found += len(svg)
@@ -206,7 +241,9 @@ def cmd_report():
     print(f"\nTOTAL authentic SVGs: {found}/{len(teams)}")
 
 def cmd_fetch():
+    only = sys.argv[2] if len(sys.argv) > 2 else None
     teams = load_teams()
+    if only: teams = [t for t in teams if t["comp"] == only]
     out = []
     okn = 0
     for i, t in enumerate(teams, 1):
@@ -235,8 +272,12 @@ def cmd_fetch():
             print(f"[{i:3d}/{len(teams)}] --   {t['name']} ({r['status']})")
         out.append(rec)
         time.sleep(0.05)
+    spath = os.path.join(ROOT, "svg_manifest.json")
+    if only and os.path.exists(spath):
+        prev = json.load(open(spath))["teams"]
+        out = [t for t in prev if t.get("competition") != only] + out
     json.dump({"source": "Wikidata P154 -> Wikimedia Commons", "teams": out},
-              open(os.path.join(ROOT, "svg_manifest.json"), "w"), indent=2, ensure_ascii=False)
+              open(spath, "w"), indent=2, ensure_ascii=False)
     print(f"\nDONE: {okn}/{len(teams)} SVGs fetched. svg_manifest.json written.")
 
 if __name__ == "__main__":
