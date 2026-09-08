@@ -194,6 +194,42 @@
       "bytes": 1840
     },
     {
+      "team": "FC Schalke 04",
+      "slug": "fc-schalke-04",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "FC Schalke 04",
+      "bytes": 4426
+    },
+    {
+      "team": "SC Paderborn 07",
+      "slug": "sc-paderborn-07",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/67/SC_Paderborn_07_Logo_new.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "SC Paderborn 07",
+      "bytes": 14406
+    },
+    {
+      "team": "SV Elversberg",
+      "slug": "sv-elversberg",
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "svg": "MSI2026/Bundesliga/SV Elversberg/sv-elversberg.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d4/SV_Elversberg_Logo_2021.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "src": "wikipedia",
+      "wikidata": null,
+      "commons_file": "SV Elversberg",
+      "bytes": 4657
+    },
+    {
       "team": "Bodo/Glimt",
       "slug": "bodo-glimt",
       "competition": "MSI2026",
@@ -390,6 +426,42 @@
       "reason": "no-logo"
     },
     {
+      "team": "Deportivo La Coruna",
+      "slug": "deportivo-la-coruna",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/RC_Deportivo_A_Coru%C3%B1a_logo_2026.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "RC Deportivo A Coruña logo 2026.svg",
+      "bytes": 68284
+    },
+    {
+      "team": "Malaga",
+      "slug": "malaga",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Malaga/malaga.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/M%C3%A1laga_CF.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Málaga CF.svg",
+      "bytes": 67484
+    },
+    {
+      "team": "Racing Santander",
+      "slug": "racing-santander",
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "svg": "MSI2026/La Liga/Racing Santander/racing-santander.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Racing_de_Santander_logo.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Racing de Santander logo.svg",
+      "bytes": 50869
+    },
+    {
       "team": "Sporting CP",
       "slug": "sporting-cp",
       "competition": "MSI2026",
@@ -574,6 +646,26 @@
       "reason": "no-logo"
     },
     {
+      "team": "Estac Troyes",
+      "slug": "estac-troyes",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": null,
+      "reason": "blocked-raster-embedded"
+    },
+    {
+      "team": "Le Mans",
+      "slug": "le-mans",
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "svg": "MSI2026/Ligue 1/Le Mans/le-mans.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Le_Mans_FC_logo.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Le Mans FC logo.svg",
+      "bytes": 10035
+    },
+    {
       "team": "Arsenal",
       "slug": "arsenal",
       "competition": "MSI2026",
@@ -744,6 +836,43 @@
       "group": "Premier League",
       "svg": null,
       "reason": "no-logo"
+    },
+    {
+      "team": "Coventry",
+      "slug": "coventry",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": "MSI2026/Premier League/Coventry/coventry.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Coventry_City_FC_crest.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Coventry City FC crest.svg",
+      "bytes": 258656,
+      "note": "vector paths with embedded raster gradient fills (official export as published on Wikipedia)"
+    },
+    {
+      "team": "Hull City",
+      "slug": "hull-city",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": "MSI2026/Premier League/Hull City/hull-city.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Hull_City_A.F.C._logo.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Hull City A.F.C. logo.svg",
+      "bytes": 171543
+    },
+    {
+      "team": "Ipswich",
+      "slug": "ipswich",
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "svg": "MSI2026/Premier League/Ipswich/ipswich.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Ipswich_Town.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Ipswich Town.svg",
+      "bytes": 14386
     },
     {
       "team": "AC Milan",
@@ -948,6 +1077,42 @@
       "wikidata": "Q2798",
       "commons_file": "Udinese Calcio 2010.svg",
       "bytes": 23831
+    },
+    {
+      "team": "Frosinone",
+      "slug": "frosinone",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Frosinone/frosinone.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Frosinone_Calcio_logo.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Frosinone Calcio logo.svg",
+      "bytes": 131099
+    },
+    {
+      "team": "Monza",
+      "slug": "monza",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Monza/monza.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/AC_Monza_logo_%282021%29.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "AC Monza logo (2021).svg",
+      "bytes": 18335
+    },
+    {
+      "team": "Venezia",
+      "slug": "venezia",
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "svg": "MSI2026/Serie A/Venezia/venezia.svg",
+      "source": "https://en.wikipedia.org/wiki/Special:FilePath/Venezia_FC_crest.svg",
+      "src": "enwiki-file-pin",
+      "wikidata": null,
+      "commons_file": "Venezia FC crest.svg",
+      "bytes": 1997
     },
     {
       "team": "Atlanta Hawks",

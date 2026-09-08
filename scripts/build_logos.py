@@ -3,7 +3,9 @@
 build_logos.py — fetch latest official team logos and generate standardized variants.
 
 Sources logos from ESPN's public sports API (no API key required):
-  https://site.api.espn.com/apis/site/v2/sports/<path>/teams
+  https://site.web.api.espn.com/apis/site/v2/sports/<path>/teams
+  (the original site.api.espn.com host has been 403-blocked since mid-2026;
+  site.web.api.espn.com serves the identical JSON — see ESPN_HOST)
 Each team logo is a transparent PNG served from a.espncdn.com.
 
 For every team it produces 6 PNG variants (background transparent unless noted):
@@ -24,6 +26,10 @@ Usage:
   python3 scripts/build_logos.py report   # match all teams to logos, print confidence, download nothing
   python3 scripts/build_logos.py build     # download masters + generate all variants + manifest
   python3 scripts/build_logos.py build NFL # build one competition, merge into manifest.json
+  python3 scripts/build_logos.py build MSI2026 --new            # only teams with no PNGs yet
+  python3 scripts/build_logos.py build MSI2026 --teams "Coventry,Hull City"  # named teams only
+Team-filtered builds merge into manifest.json by (competition, team), keeping every
+other entry untouched and the competition block in its canonical list order.
 
 If a team folder contains an authentic <slug>.svg (see fetch_svgs.py), the PNG
 variants are generated from a 2048px render of it (needs cairosvg) instead of
@@ -35,15 +41,19 @@ from PIL import Image, ImageDraw
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTERS = os.path.join(ROOT, "_masters")
+# site.api.espn.com started returning 403 in 2026; site.web.api.espn.com is the same API.
+ESPN_HOST = "site.web.api.espn.com"
 UA = {"User-Agent": "Mozilla/5.0 (logo-fetch)"}
 BIG, SMALL = 512, 128
 SQUARE_PAD = 0.06   # fraction of frame as padding for square fit
 CIRCLE_PAD = 0.10   # padding for circle fits
 
 # ---------------------------------------------------------------- team lists
-# MSI2026: 100 canonical clubs, faithful to public.teams.league_at_creation
+# MSI2026: 114 canonical clubs, faithful to public.teams.league_at_creation
+# (100 original + the 14 clubs promoted into the big-5 leagues for 2026-27;
+#  relegated clubs are kept, nothing is ever removed from this list)
 MSI = [
-    # Bundesliga (18)
+    # Bundesliga (18 + 3 promoted 2026-27)
     ("1. FC Heidenheim", "Bundesliga"), ("1. FC Köln", "Bundesliga"),
     ("1899 Hoffenheim", "Bundesliga"), ("Bayer Leverkusen", "Bundesliga"),
     ("Bayern München", "Bundesliga"), ("Borussia Dortmund", "Bundesliga"),
@@ -53,9 +63,11 @@ MSI = [
     ("RB Leipzig", "Bundesliga"), ("SC Freiburg", "Bundesliga"),
     ("Union Berlin", "Bundesliga"), ("VfB Stuttgart", "Bundesliga"),
     ("VfL Wolfsburg", "Bundesliga"), ("Werder Bremen", "Bundesliga"),
+    ("FC Schalke 04", "Bundesliga"), ("SC Paderborn 07", "Bundesliga"),   # promoted 2026-27
+    ("SV Elversberg", "Bundesliga"),                                       # promoted 2026-27
     # Champions League (2) — domestic feed used to source logo
     ("Bodo/Glimt", "Champions League"), ("Galatasaray", "Champions League"),
-    # La Liga (20)
+    # La Liga (20 + 3 promoted 2026-27)
     ("Alaves", "La Liga"), ("Athletic Club", "La Liga"), ("Atletico Madrid", "La Liga"),
     ("Barcelona", "La Liga"), ("Celta Vigo", "La Liga"), ("Elche", "La Liga"),
     ("Espanyol", "La Liga"), ("Getafe", "La Liga"), ("Girona", "La Liga"),
@@ -63,16 +75,19 @@ MSI = [
     ("Oviedo", "La Liga"), ("Rayo Vallecano", "La Liga"), ("Real Betis", "La Liga"),
     ("Real Madrid", "La Liga"), ("Real Sociedad", "La Liga"), ("Sevilla", "La Liga"),
     ("Valencia", "La Liga"), ("Villarreal", "La Liga"),
+    ("Deportivo La Coruna", "La Liga"), ("Malaga", "La Liga"),             # promoted 2026-27
+    ("Racing Santander", "La Liga"),                                       # promoted 2026-27
     # Liga Portugal (1)
     ("Sporting CP", "Liga Portugal"),
-    # Ligue 1 (18)
+    # Ligue 1 (18 + 2 promoted 2026-27)
     ("Angers", "Ligue 1"), ("Auxerre", "Ligue 1"), ("Le Havre", "Ligue 1"),
     ("Lens", "Ligue 1"), ("Lille", "Ligue 1"), ("Lorient", "Ligue 1"),
     ("Lyon", "Ligue 1"), ("Marseille", "Ligue 1"), ("Metz", "Ligue 1"),
     ("Monaco", "Ligue 1"), ("Nantes", "Ligue 1"), ("Nice", "Ligue 1"),
     ("Paris FC", "Ligue 1"), ("Paris Saint Germain", "Ligue 1"), ("Rennes", "Ligue 1"),
     ("Stade Brestois 29", "Ligue 1"), ("Strasbourg", "Ligue 1"), ("Toulouse", "Ligue 1"),
-    # Premier League (21)
+    ("Estac Troyes", "Ligue 1"), ("Le Mans", "Ligue 1"),                   # promoted 2026-27
+    # Premier League (21 + 3 promoted 2026-27)
     ("Arsenal", "Premier League"), ("Aston Villa", "Premier League"),
     ("Bournemouth", "Premier League"), ("Brentford", "Premier League"),
     ("Brighton", "Premier League"), ("Burnley", "Premier League"),
@@ -84,7 +99,9 @@ MSI = [
     ("Southampton", "Premier League"), ("Sunderland", "Premier League"),
     ("Tottenham", "Premier League"), ("West Ham", "Premier League"),
     ("Wolves", "Premier League"),
-    # Serie A (20)
+    ("Coventry", "Premier League"), ("Hull City", "Premier League"),       # promoted 2026-27
+    ("Ipswich", "Premier League"),                                         # promoted 2026-27
+    # Serie A (20 + 3 promoted 2026-27)
     ("AC Milan", "Serie A"), ("AS Roma", "Serie A"), ("Atalanta", "Serie A"),
     ("Bologna", "Serie A"), ("Cagliari", "Serie A"), ("Como", "Serie A"),
     ("Cremonese", "Serie A"), ("Fiorentina", "Serie A"), ("Genoa", "Serie A"),
@@ -92,6 +109,7 @@ MSI = [
     ("Lazio", "Serie A"), ("Lecce", "Serie A"), ("Napoli", "Serie A"),
     ("Parma", "Serie A"), ("Pisa", "Serie A"), ("Sassuolo", "Serie A"),
     ("Torino", "Serie A"), ("Udinese", "Serie A"),
+    ("Frosinone", "Serie A"), ("Monza", "Serie A"), ("Venezia", "Serie A"),  # promoted 2026-27
 ]
 
 # Explicit overrides for clubs whose ESPN name won't fuzzy-match the DB name.
@@ -100,6 +118,8 @@ ALIAS = {
     "1. FC Köln": "Cologne",
     "Wolves": "Wolverhampton Wanderers",
     "Inter": "Internazionale",
+    "Deportivo La Coruna": "Deportivo",   # ESPN displayName is just "Deportivo"
+    "Estac Troyes": "Troyes",
 }
 
 # Hard exact-displayName pins (case/accent-insensitive, NO stopword stripping) for
@@ -206,7 +226,7 @@ def pick_logo(team):
     return sorted(logos, key=score)[0]["href"]
 
 def espn_teams(path, season=None):
-    url = f"https://site.api.espn.com/apis/site/v2/sports/{path}/teams"
+    url = f"https://{ESPN_HOST}/apis/site/v2/sports/{path}/teams"
     if season:
         url += f"?season={season}"
     try:
@@ -344,9 +364,11 @@ def download(url, dest):
 def render_svg_master(svg_path, dest_png, height=2048):
     """Render a local authentic SVG to a high-res PNG master (crisper than CDN rasters).
     Requires cairosvg (pip install cairosvg); returns False if unavailable."""
+    if sys.platform == "darwin":  # let cairocffi find Homebrew's libcairo
+        os.environ.setdefault("DYLD_FALLBACK_LIBRARY_PATH", "/opt/homebrew/lib:/usr/local/lib")
     try:
         import cairosvg
-    except ImportError:
+    except (ImportError, OSError):
         return False
     try:
         cairosvg.svg2png(url=svg_path, write_to=dest_png, output_height=height)
@@ -466,9 +488,54 @@ def cmd_report():
     total = len(jobs)
     print(f"\nTOTAL matched={total}  problems={len(problems)}")
 
+def has_all_variants(j):
+    out_dir = os.path.join(ROOT, j["comp"], folder_name(j["group"]), folder_name(j["team"]))
+    return all(os.path.exists(os.path.join(out_dir, f"{j['slug']}_{s}.png")) for s, _, _ in VARIANTS)
+
+def parse_build_args(argv):
+    """build [COMP] [--new] [--teams A,B,C | --teams=A,B,C]"""
+    only, new_only, teams = None, False, None
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if a == "--new":
+            new_only = True
+        elif a.startswith("--teams="):
+            teams = a.split("=", 1)[1]
+        elif a == "--teams":
+            i += 1; teams = argv[i] if i < len(argv) else ""
+        elif not a.startswith("--"):
+            only = a
+        i += 1
+    if teams is not None:
+        teams = {t.strip() for t in teams.split(",") if t.strip()}
+    return only, new_only, teams
+
+def merge_manifest(prev, built, order, comps, partial):
+    """Merge freshly built entries into the previous manifest.
+    prev: previous entries; built: new entries; order: canonical (comp, team) keys for
+    the touched comps; comps: competitions touched; partial: True when a team filter was
+    used (carry over untouched teams of those comps), False = whole-competition rebuild."""
+    key = lambda t: (t.get("competition"), t.get("team"))
+    block = {key(t): t for t in prev if key(t)[0] in comps} if partial else {}
+    block.update({key(t): t for t in built})
+    ordered = [block[k] for k in order if k in block]
+    ordered += [t for k, t in block.items() if k not in set(order)]
+    final, inserted = [], False
+    for t in prev:                       # keep the competition block where it already sits
+        if key(t)[0] in comps:
+            if not inserted:
+                final.extend(ordered); inserted = True
+            continue
+        final.append(t)
+    if not inserted:
+        final.extend(ordered)
+    return final
+
 def cmd_build():
     # optional competition filter: `build NFL` builds only NFL and merges into manifest.json
-    only = sys.argv[2] if len(sys.argv) > 2 else None
+    # optional team filters: `--new` (teams with no PNGs yet) / `--teams "A,B"`
+    only, new_only, teams_filter = parse_build_args(sys.argv[2:])
     jobs, problems = collect_jobs(only)
     if only:
         jobs = [j for j in jobs if j["comp"] == only]
@@ -480,6 +547,17 @@ def cmd_build():
         for p in problems:
             print("  ", p)
         sys.exit(1)
+    order = [(j["comp"], j["team"]) for j in jobs]      # canonical order, pre-filter
+    if teams_filter is not None:
+        unknown = teams_filter - {j["team"] for j in jobs}
+        if unknown:
+            print("Unknown team name(s):", ", ".join(sorted(unknown))); sys.exit(1)
+        jobs = [j for j in jobs if j["team"] in teams_filter]
+    if new_only:
+        jobs = [j for j in jobs if not has_all_variants(j)]
+    if not jobs:
+        print("Nothing to build (all requested teams already have their 6 variants)."); return
+    partial = new_only or teams_filter is not None
     manifest = []
     for i, j in enumerate(jobs, 1):
         sport_dir = {"MSI2026":"soccer","NBA":"nba","MLB":"mlb","NFL":"nfl"}[j["comp"]]
@@ -500,9 +578,10 @@ def cmd_build():
             manifest.append({"competition": j["comp"], "team": j["team"], "error": str(e)})
         time.sleep(0.02)
     mpath = os.path.join(ROOT, "manifest.json")
-    if only and os.path.exists(mpath):
-        prev = json.load(open(mpath))
-        manifest = [t for t in prev["teams"] if t.get("competition") != only] + manifest
+    if (only or partial) and os.path.exists(mpath):
+        prev = json.load(open(mpath))["teams"]
+        comps = {j["comp"] for j in jobs}
+        manifest = merge_manifest(prev, manifest, order, comps, partial)
     with open(mpath, "w") as f:
         json.dump({"generated_from": "ESPN public sports API (+ authentic SVG masters where available)",
                    "variants": [v[0] for v in VARIANTS],

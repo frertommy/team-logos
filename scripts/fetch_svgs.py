@@ -11,10 +11,15 @@ Strategy (free + license-clean + verifiable):
      on Wikimedia Commons. Optional Commons file-search fallback (flagged).
 
 Modes:
-  report  — resolve + verify all 160, print coverage table, download nothing
+  report  — resolve + verify all teams, print coverage table, download nothing
   fetch   — download verified SVGs into each team folder as <slug>.svg, write svg_manifest.json
 
-Reads the canonical 160 teams from manifest.json (built by build_logos.py).
+  Both accept an optional competition (e.g. `fetch MSI2026`) and, for fetch, team filters:
+    --new              only teams that have no record in svg_manifest.json yet
+    --teams "A,B,C"    only the named teams
+  Filtered fetches merge into svg_manifest.json by slug; untouched records are kept.
+
+Reads the canonical team list from manifest.json (built by build_logos.py).
 """
 import json, sys, os, re, time, unicodedata, urllib.parse, urllib.request
 from difflib import SequenceMatcher
@@ -48,6 +53,12 @@ QUERY_ALIAS = {
     "Hamburger SV": "Hamburger SV", "RB Leipzig": "RB Leipzig",
     "Bodo/Glimt": "FK Bodø/Glimt", "Galatasaray": "Galatasaray S.K. (football)",
     "Inter Milan": "Inter Milan",
+    # promoted 2026-27
+    "Coventry": "Coventry City", "Ipswich": "Ipswich Town",
+    "Deportivo La Coruna": "Deportivo de La Coruña", "Malaga": "Málaga CF",
+    "Racing Santander": "Racing de Santander", "Frosinone": "Frosinone Calcio",
+    "Monza": "AC Monza", "Venezia": "Venezia FC", "Estac Troyes": "ES Troyes AC",
+    "Le Mans": "Le Mans FC",
 }
 
 # Direct English-Wikipedia article titles for teams whose name collides with a city/word,
@@ -57,6 +68,10 @@ TITLE_OVERRIDE = {
     "Metz": "FC Metz",
     "Nantes": "FC Nantes",
     "Bodo/Glimt": "FK Bodø/Glimt",
+    # promoted 2026-27 — infobox crest lives on Commons, go straight to the article
+    "FC Schalke 04": "FC Schalke 04",
+    "SC Paderborn 07": "SC Paderborn 07",
+    "SV Elversberg": "SV Elversberg",
 }
 
 # Crests absent from Commons/Wikidata P154 but hosted on English Wikipedia as
@@ -84,12 +99,33 @@ ENWIKI_FILE = {
     "Baltimore Ravens": "Baltimore Ravens logo.svg",
     "Chicago Bears": "Chicago Bears logo primary.svg",
     "Carolina Panthers": "Carolina Panthers logo.svg",
+    # MSI2026 clubs promoted for 2026-27 (current enwiki infobox crest, verified 2026-09-08)
+    "Coventry": "Coventry City FC crest.svg",
+    "Hull City": "Hull City A.F.C. logo.svg",
+    "Ipswich": "Ipswich Town.svg",
+    "Deportivo La Coruna": "RC Deportivo A Coruña logo 2026.svg",   # new 2026 crest
+    "Malaga": "Málaga CF.svg",
+    "Racing Santander": "Racing de Santander logo.svg",
+    "Frosinone": "Frosinone Calcio logo.svg",
+    "Monza": "AC Monza logo (2021).svg",
+    "Venezia": "Venezia FC crest.svg",
+    "Le Mans": "Le Mans FC logo.svg",
 }
 
-# Teams whose only freely-licensed SVG is a wide WORDMARK (not the crest/badge).
-# Verified by rendering + comparing to the trusted ESPN PNG (low shape-IoU, ar > 4).
-# A wordmark misrepresents these teams, so we skip the SVG and keep the PNG.
-BLOCK = {"Toronto Blue Jays", "Golden State Warriors", "AS Roma"}
+# Files that are real vector artwork but carry embedded raster pattern/gradient fills
+# (official Illustrator exports). Shipped as-is; the note is written to svg_manifest.json.
+SVG_NOTE = {
+    "Coventry": "vector paths with embedded raster gradient fills (official export as published on Wikipedia)",
+}
+
+# Teams whose only available SVG must NOT be shipped, with the reason:
+#  - wordmark: the only free SVG is a wide WORDMARK (not the crest/badge). Verified by
+#    rendering + comparing to the trusted ESPN PNG (low shape-IoU, ar > 4).
+#  - raster-embedded: the Wikipedia "SVG" is a bitmap wrapped in an <svg> (the crest
+#    artwork is embedded <image> tiles, only overlays are paths) — not a real vector.
+# Blocked teams keep the CDN-raster PNG set only.
+BLOCK = {"Toronto Blue Jays": "wordmark", "Golden State Warriors": "wordmark", "AS Roma": "wordmark",
+         "Estac Troyes": "raster-embedded"}   # ESTAC_Troyes_Logo.svg: 74% base64 PNG
 
 def strip_accents(s):
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
@@ -165,8 +201,10 @@ def resolve(team, comp):
                 "url": ENWIKI_FILEPATH + urllib.parse.quote(ef.replace(" ", "_")),
                 "file": ef, "qid": None, "label": team, "desc": "(enwiki file pin)"}
     if team in BLOCK:
-        return {"status": "blocked-wordmark", "label": team,
-                "desc": "only a free wordmark exists; keep PNG", "file": None}
+        return {"status": "blocked-" + BLOCK[team], "label": team,
+                "desc": {"wordmark": "only a free wordmark exists; keep PNG",
+                         "raster-embedded": "Wikipedia SVG is a wrapped bitmap; keep PNG"}[BLOCK[team]],
+                "file": None}
     to = TITLE_OVERRIDE.get(team)
     if to:
         img = wiki_pageimage(to)
@@ -240,10 +278,36 @@ def cmd_report():
             print(f"   ok   {t['name']:26s} [{r.get('src')}] {r['file']}")
     print(f"\nTOTAL authentic SVGs: {found}/{len(teams)}")
 
+def parse_args(argv):
+    """[COMP] [--new] [--teams A,B,C | --teams=A,B,C]"""
+    only, new_only, names = None, False, None
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if a == "--new": new_only = True
+        elif a.startswith("--teams="): names = a.split("=", 1)[1]
+        elif a == "--teams": i += 1; names = argv[i] if i < len(argv) else ""
+        elif not a.startswith("--"): only = a
+        i += 1
+    if names is not None: names = {n.strip() for n in names.split(",") if n.strip()}
+    return only, new_only, names
+
 def cmd_fetch():
-    only = sys.argv[2] if len(sys.argv) > 2 else None
-    teams = load_teams()
-    if only: teams = [t for t in teams if t["comp"] == only]
+    only, new_only, names = parse_args(sys.argv[2:])
+    spath = os.path.join(ROOT, "svg_manifest.json")
+    prev = json.load(open(spath))["teams"] if os.path.exists(spath) else []
+    prev_by_slug = {t["slug"]: t for t in prev}
+    all_teams = load_teams()
+    teams = [t for t in all_teams if t["comp"] == only] if only else list(all_teams)
+    if names is not None:
+        unknown = names - {t["name"] for t in teams}
+        if unknown: print("Unknown team name(s):", ", ".join(sorted(unknown))); sys.exit(1)
+        teams = [t for t in teams if t["name"] in names]
+    if new_only:
+        teams = [t for t in teams if t["slug"] not in prev_by_slug]
+    if not teams:
+        print("Nothing to fetch."); return
+    partial = new_only or names is not None
     out = []
     okn = 0
     for i, t in enumerate(teams, 1):
@@ -262,6 +326,7 @@ def cmd_fetch():
                 rec.update({"svg": os.path.relpath(dest, ROOT), "source": url,
                             "src": r.get("src"), "wikidata": r["qid"],
                             "commons_file": r["file"], "bytes": len(data)})
+                if t["name"] in SVG_NOTE: rec["note"] = SVG_NOTE[t["name"]]
                 okn += 1
                 print(f"[{i:3d}/{len(teams)}] OK   {t['name']} ({len(data)} B)")
             except Exception as e:
@@ -272,10 +337,15 @@ def cmd_fetch():
             print(f"[{i:3d}/{len(teams)}] --   {t['name']} ({r['status']})")
         out.append(rec)
         time.sleep(0.05)
-    spath = os.path.join(ROOT, "svg_manifest.json")
-    if only and os.path.exists(spath):
-        prev = json.load(open(spath))["teams"]
-        out = [t for t in prev if t.get("competition") != only] + out
+    if prev and (only or partial):
+        fetched = {t["slug"]: t for t in out}
+        if partial:
+            # merge by slug; order follows manifest.json for every team that has a record
+            merged = {**prev_by_slug, **fetched}
+            out = [merged[t["slug"]] for t in all_teams if t["slug"] in merged]
+            out += [v for k, v in merged.items() if k not in {t["slug"] for t in all_teams}]
+        else:
+            out = [t for t in prev if t.get("competition") != only] + out
     json.dump({"source": "Wikidata P154 -> Wikimedia Commons", "teams": out},
               open(spath, "w"), indent=2, ensure_ascii=False)
     print(f"\nDONE: {okn}/{len(teams)} SVGs fetched. svg_manifest.json written.")

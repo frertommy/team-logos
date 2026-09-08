@@ -1,0 +1,53 @@
+{
+  "competitions": {
+    "MSI2026": {
+      "teams": 114,
+      "svgs": 50,
+      "files": [
+        {
+          "file": "downloads/MSI2026.zip",
+          "bytes": 32211414,
+          "part": "all",
+          "label": "all variants + SVG"
+        }
+      ]
+    },
+    "MLB": {
+      "teams": 30,
+      "svgs": 26,
+      "files": [
+        {
+          "file": "downloads/MLB.zip",
+          "bytes": 5519899,
+          "part": "all",
+          "label": "all variants + SVG"
+        }
+      ]
+    },
+    "NBA": {
+      "teams": 30,
+      "svgs": 4,
+      "files": [
+        {
+          "file": "downloads/NBA.zip",
+          "bytes": 7406361,
+          "part": "all",
+          "label": "all variants + SVG"
+        }
+      ]
+    },
+    "NFL": {
+      "teams": 32,
+      "svgs": 32,
+      "files": [
+        {
+          "file": "downloads/NFL.zip",
+          "bytes": 6130183,
+          "part": "all",
+          "label": "all variants + SVG"
+        }
+      ]
+    }
+  },
+  "split_mb": 95
+}

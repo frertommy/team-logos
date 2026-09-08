@@ -321,6 +321,60 @@
     },
     {
       "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "FC Schalke 04",
+      "slug": "fc-schalke-04",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+      "master": "svg@2048",
+      "matched_as": "Schalke 04",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_big_square.png",
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_big_circle.png",
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_big_circle_badge.png",
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_small_square.png",
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_small_circle.png",
+        "MSI2026/Bundesliga/FC Schalke 04/fc-schalke-04_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "SC Paderborn 07",
+      "slug": "sc-paderborn-07",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+      "master": "svg@2048",
+      "matched_as": "SC Paderborn 07",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_big_square.png",
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_big_circle.png",
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_big_circle_badge.png",
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_small_square.png",
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_small_circle.png",
+        "MSI2026/Bundesliga/SC Paderborn 07/sc-paderborn-07_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Bundesliga",
+      "team": "SV Elversberg",
+      "slug": "sv-elversberg",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+      "master": "svg@2048",
+      "matched_as": "SV Elversberg",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_big_square.png",
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_big_circle.png",
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_big_circle_badge.png",
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_small_square.png",
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_small_circle.png",
+        "MSI2026/Bundesliga/SV Elversberg/sv-elversberg_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
       "group": "Champions League",
       "team": "Bodo/Glimt",
       "slug": "bodo-glimt",
@@ -695,6 +749,60 @@
     },
     {
       "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Deportivo La Coruna",
+      "slug": "deportivo-la-coruna",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+      "master": "svg@2048",
+      "matched_as": "Deportivo",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_big_square.png",
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_big_circle.png",
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_big_circle_badge.png",
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_small_square.png",
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_small_circle.png",
+        "MSI2026/La Liga/Deportivo La Coruna/deportivo-la-coruna_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Malaga",
+      "slug": "malaga",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+      "master": "svg@2048",
+      "matched_as": "Málaga",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Malaga/malaga_big_square.png",
+        "MSI2026/La Liga/Malaga/malaga_big_circle.png",
+        "MSI2026/La Liga/Malaga/malaga_big_circle_badge.png",
+        "MSI2026/La Liga/Malaga/malaga_small_square.png",
+        "MSI2026/La Liga/Malaga/malaga_small_circle.png",
+        "MSI2026/La Liga/Malaga/malaga_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "La Liga",
+      "team": "Racing Santander",
+      "slug": "racing-santander",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+      "master": "svg@2048",
+      "matched_as": "Racing Santander",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/La Liga/Racing Santander/racing-santander_big_square.png",
+        "MSI2026/La Liga/Racing Santander/racing-santander_big_circle.png",
+        "MSI2026/La Liga/Racing Santander/racing-santander_big_circle_badge.png",
+        "MSI2026/La Liga/Racing Santander/racing-santander_small_square.png",
+        "MSI2026/La Liga/Racing Santander/racing-santander_small_circle.png",
+        "MSI2026/La Liga/Racing Santander/racing-santander_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
       "group": "Liga Portugal",
       "team": "Sporting CP",
       "slug": "sporting-cp",
@@ -1014,6 +1122,42 @@
         "MSI2026/Ligue 1/Toulouse/toulouse_small_square.png",
         "MSI2026/Ligue 1/Toulouse/toulouse_small_circle.png",
         "MSI2026/Ligue 1/Toulouse/toulouse_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Estac Troyes",
+      "slug": "estac-troyes",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+      "master": "cdn-png",
+      "matched_as": "Troyes",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_big_square.png",
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_big_circle.png",
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_big_circle_badge.png",
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_small_square.png",
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_small_circle.png",
+        "MSI2026/Ligue 1/Estac Troyes/estac-troyes_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Ligue 1",
+      "team": "Le Mans",
+      "slug": "le-mans",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+      "master": "svg@2048",
+      "matched_as": "Le Mans",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Ligue 1/Le Mans/le-mans_big_square.png",
+        "MSI2026/Ligue 1/Le Mans/le-mans_big_circle.png",
+        "MSI2026/Ligue 1/Le Mans/le-mans_big_circle_badge.png",
+        "MSI2026/Ligue 1/Le Mans/le-mans_small_square.png",
+        "MSI2026/Ligue 1/Le Mans/le-mans_small_circle.png",
+        "MSI2026/Ligue 1/Le Mans/le-mans_small_circle_badge.png"
       ]
     },
     {
@@ -1375,6 +1519,60 @@
     },
     {
       "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Coventry",
+      "slug": "coventry",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+      "master": "svg@2048",
+      "matched_as": "Coventry City",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Coventry/coventry_big_square.png",
+        "MSI2026/Premier League/Coventry/coventry_big_circle.png",
+        "MSI2026/Premier League/Coventry/coventry_big_circle_badge.png",
+        "MSI2026/Premier League/Coventry/coventry_small_square.png",
+        "MSI2026/Premier League/Coventry/coventry_small_circle.png",
+        "MSI2026/Premier League/Coventry/coventry_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Hull City",
+      "slug": "hull-city",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+      "master": "svg@2048",
+      "matched_as": "Hull City",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Hull City/hull-city_big_square.png",
+        "MSI2026/Premier League/Hull City/hull-city_big_circle.png",
+        "MSI2026/Premier League/Hull City/hull-city_big_circle_badge.png",
+        "MSI2026/Premier League/Hull City/hull-city_small_square.png",
+        "MSI2026/Premier League/Hull City/hull-city_small_circle.png",
+        "MSI2026/Premier League/Hull City/hull-city_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Premier League",
+      "team": "Ipswich",
+      "slug": "ipswich",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "master": "svg@2048",
+      "matched_as": "Ipswich Town",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Premier League/Ipswich/ipswich_big_square.png",
+        "MSI2026/Premier League/Ipswich/ipswich_big_circle.png",
+        "MSI2026/Premier League/Ipswich/ipswich_big_circle_badge.png",
+        "MSI2026/Premier League/Ipswich/ipswich_small_square.png",
+        "MSI2026/Premier League/Ipswich/ipswich_small_circle.png",
+        "MSI2026/Premier League/Ipswich/ipswich_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
       "group": "Serie A",
       "team": "AC Milan",
       "slug": "ac-milan",
@@ -1711,6 +1909,60 @@
         "MSI2026/Serie A/Udinese/udinese_small_square.png",
         "MSI2026/Serie A/Udinese/udinese_small_circle.png",
         "MSI2026/Serie A/Udinese/udinese_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Frosinone",
+      "slug": "frosinone",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+      "master": "svg@2048",
+      "matched_as": "Frosinone",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Frosinone/frosinone_big_square.png",
+        "MSI2026/Serie A/Frosinone/frosinone_big_circle.png",
+        "MSI2026/Serie A/Frosinone/frosinone_big_circle_badge.png",
+        "MSI2026/Serie A/Frosinone/frosinone_small_square.png",
+        "MSI2026/Serie A/Frosinone/frosinone_small_circle.png",
+        "MSI2026/Serie A/Frosinone/frosinone_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Monza",
+      "slug": "monza",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "master": "svg@2048",
+      "matched_as": "Monza",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Monza/monza_big_square.png",
+        "MSI2026/Serie A/Monza/monza_big_circle.png",
+        "MSI2026/Serie A/Monza/monza_big_circle_badge.png",
+        "MSI2026/Serie A/Monza/monza_small_square.png",
+        "MSI2026/Serie A/Monza/monza_small_circle.png",
+        "MSI2026/Serie A/Monza/monza_small_circle_badge.png"
+      ]
+    },
+    {
+      "competition": "MSI2026",
+      "group": "Serie A",
+      "team": "Venezia",
+      "slug": "venezia",
+      "source_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "master": "svg@2048",
+      "matched_as": "Venezia",
+      "match_score": 1.0,
+      "files": [
+        "MSI2026/Serie A/Venezia/venezia_big_square.png",
+        "MSI2026/Serie A/Venezia/venezia_big_circle.png",
+        "MSI2026/Serie A/Venezia/venezia_big_circle_badge.png",
+        "MSI2026/Serie A/Venezia/venezia_small_square.png",
+        "MSI2026/Serie A/Venezia/venezia_small_circle.png",
+        "MSI2026/Serie A/Venezia/venezia_small_circle_badge.png"
       ]
     },
     {
